@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/jon/Documents/School/595/project2/cit595project2/temperature'
+let g:netrw_dirhist_2='/home/jon/Documents/School/595/project2/cit595project2'
+let g:netrw_dirhist_3='/home/jon/.vim/bundle'
+let g:netrw_dirhist_4='/home/jon/.vim'
