@@ -3,12 +3,15 @@
 "http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
 
 set nocompatible
+filetype plugin on
+filetype plugin indent on
+syntax on
 filetype off
 
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
 
+set spelllang=en		"spelling language
+"" set spellfile=$HOME/.vim/wordlist/en.utf-8.add
 set autoindent
 set backspace=indent,eol,start
 set hidden
@@ -54,6 +57,14 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_switch_buffer = 'et'
 
+"" vimwiki""
+let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown' }
+
+let g:vimwiki_list = [{'path': '~/vimwiki/', 
+					 \ 'syntax': 'markdown', 'ext': '.md'}]
+
+
+
 ""mappings""
 
 let mapleader = ","
@@ -77,3 +88,9 @@ nnoremap <leader>nt :NERDTreeToggle<esc><CR>
 "" buffer toggle
 nnoremap <leader>bn :bn<CR>
 nnoremap <leader>bp :bp<CR>
+
+
+""instant markdown""
+let g:instant_markdown_autostart = 0	"disable autostart
+nnoremap <silent><leader>md :InstantMarkdownPreview<CR>
+

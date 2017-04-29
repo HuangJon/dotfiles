@@ -5,10 +5,48 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/e3ea52b/
++	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> + <Plug>VimwikiNormalizeLink$/;"	m
++	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  vmap <silent><buffer> + <Plug>VimwikiNormalizeLinkVisual$/;"	m
+-	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> - <Plug>VimwikiRemoveHeaderLevel$/;"	m
+.center	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.center {margin-left: auto; margin-right: auto;}$/;"	c
+.done0	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.done0 {$/;"	c
+.done1	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.done1 {$/;"	c
+.done2	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.done2 {$/;"	c
+.done3	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.done3 {$/;"	c
+.done4	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.done4 {$/;"	c
+.justcenter	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.justcenter {text-align: center;}$/;"	c
+.justleft	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.justleft {text-align: left;}$/;"	c
+.justright	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.justright {text-align: right;}$/;"	c
+.tag	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.tag {background-color: #eeeeee; font-family: monospace; padding: 2px;}$/;"	c
+.toc li	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.toc li {list-style-type: none;}$/;"	s
+.todo	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^.todo {font-weight: bold; background-color: #f0ece8; color: #a03020;}$/;"	c
+<2-LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nnoremap <silent><buffer> <2-LeftMouse> :call vimwiki#base#follow_link('nosplit', 0, 1, "\\<lt/;"	m
+<A-Left>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <A-Left> <Plug>VimwikiTableMoveColumnLeft$/;"	m
+<A-Right>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <A-Right> <Plug>VimwikiTableMoveColumnRight$/;"	m
+<BS>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <BS> <Plug>VimwikiGoBackLink$/;"	m
+<C-2-LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nnoremap <silent><buffer> <C-2-LeftMouse> <LeftMouse>:VimwikiVSplitLink<CR>$/;"	m
+<C-@>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^    nmap <silent><buffer> <C-@> <Plug>VimwikiToggleListItem$/;"	m
+<C-@>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^    vmap <silent><buffer> <C-@> <Plug>VimwikiToggleListItem$/;"	m
+<C-CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <C-CR> <Plug>VimwikiVSplitLink$/;"	m
+<C-D>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  imap <silent><buffer> <C-D>$/;"	m
+<C-Down>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <C-Down> <Plug>VimwikiDiaryNextDay$/;"	m
 <C-H>	vimrc	/^nnoremap <C-H> <C-W><C-H>$/;"	m
 <C-J>	vimrc	/^nnoremap <C-J> <C-W><C-J>$/;"	m
 <C-K>	vimrc	/^nnoremap <C-K> <C-W><C-K>$/;"	m
 <C-L>	vimrc	/^nnoremap <C-L> <C-W><C-L>$/;"	m
+<C-L><C-J>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  imap <silent><buffer> <C-L><C-J>$/;"	m
+<C-L><C-K>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  imap <silent><buffer> <C-L><C-K>$/;"	m
+<C-L><C-M>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  imap <silent><buffer> <C-L><C-M> <Plug>VimwikiListToggle$/;"	m
+<C-LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <buffer> <C-LeftMouse> <NOP>$/;"	m
+<C-S-CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <C-S-CR> <Plug>VimwikiTabnewLink$/;"	m
+<C-Space>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <C-Space> <Plug>VimwikiToggleListItem$/;"	m
+<C-Space>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  vmap <silent><buffer> <C-Space> <Plug>VimwikiToggleListItem$/;"	m
+<C-T>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  imap <silent><buffer> <C-T>$/;"	m
+<C-Up>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <C-Up> <Plug>VimwikiDiaryPrevDay$/;"	m
+<CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^    inoremap <silent><buffer> <CR> <Esc>:VimwikiReturn 1 5<CR>$/;"	m
+<CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <CR> <Plug>VimwikiFollowLink$/;"	m
+<CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  vmap <silent><buffer> <CR> <Plug>VimwikiNormalizeLinkVisualCR$/;"	m
+<D-CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <D-CR> <Plug>VimwikiTabnewLink$/;"	m
 <Plug>AirlineSelectNextTab	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^    noremap <silent> <Plug>AirlineSelectNextTab :<C-u>call <SID>jump_to_tab(v:count1)<CR>$/;"	m
 <Plug>AirlineSelectNextTab	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^  noremap <silent> <Plug>AirlineSelectNextTab :<C-U>exe repeat(':tabn\\|', v:count1)<cr>$/;"	m
 <Plug>AirlineSelectPrevTab	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^    noremap <silent> <Plug>AirlineSelectPrevTab :<C-u>call <SID>jump_to_tab(-v:count1)<CR>$/;"	m
@@ -34,13 +72,39 @@
 <Plug>ToggleBackground	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^inoremap <unique> <script> <Plug>ToggleBackground <ESC><SID>TogBG<ESC>a$/;"	m
 <Plug>ToggleBackground	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^nnoremap <unique> <script> <Plug>ToggleBackground <SID>TogBG$/;"	m
 <Plug>ToggleBackground	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^vnoremap <unique> <script> <Plug>ToggleBackground <ESC><SID>TogBG<ESC>gv$/;"	m
+<Plug>VimwikiAddHeaderLevel	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <silent><buffer> <Plug>VimwikiAddHeaderLevel :$/;"	m
+<Plug>VimwikiDecreaseLvlSingleItem	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^inoremap <silent><script><buffer> <Plug>VimwikiDecreaseLvlSingleItem$/;"	m
+<Plug>VimwikiDiaryGenerateLinks	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiDiaryGenerateLinks :VimwikiDiaryGenerateLinks<CR>$/;"	m
+<Plug>VimwikiDiaryIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiDiaryIndex :VimwikiDiaryIndex<CR>$/;"	m
+<Plug>VimwikiIncreaseLvlSingleItem	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^inoremap <silent><script><buffer> <Plug>VimwikiIncreaseLvlSingleItem$/;"	m
+<Plug>VimwikiIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiIndex :VimwikiIndex<CR>$/;"	m
+<Plug>VimwikiListNextSymbol	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^inoremap <silent><script><buffer> <Plug>VimwikiListNextSymbol$/;"	m
+<Plug>VimwikiListPrevSymbol	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^inoremap <silent><script><buffer> <Plug>VimwikiListPrevSymbol$/;"	m
+<Plug>VimwikiListToggle	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^inoremap <silent><script><buffer> <Plug>VimwikiListToggle <Esc>:VimwikiListToggle<CR>$/;"	m
+<Plug>VimwikiMakeDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiMakeDiaryNote :VimwikiMakeDiaryNote<CR>$/;"	m
+<Plug>VimwikiMakeYesterdayDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiMakeYesterdayDiaryNote$/;"	m
+<Plug>VimwikiRemoveHeaderLevel	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <silent><buffer> <Plug>VimwikiRemoveHeaderLevel :$/;"	m
+<Plug>VimwikiTabIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiTabIndex :VimwikiTabIndex<CR>$/;"	m
+<Plug>VimwikiTabMakeDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiTabMakeDiaryNote$/;"	m
+<Plug>VimwikiUISelect	vim/bundle/vimwiki/plugin/vimwiki.vim	/^nnoremap <unique><script> <Plug>VimwikiUISelect :VimwikiUISelect<CR>$/;"	m
+<RightMouse><LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nnoremap <silent><buffer> <RightMouse><LeftMouse> :VimwikiGoBackLink<CR>$/;"	m
+<S-2-LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nnoremap <silent><buffer> <S-2-LeftMouse> <LeftMouse>:VimwikiSplitLink<CR>$/;"	m
+<S-CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^    inoremap <silent><buffer> <S-CR> <Esc>:VimwikiReturn 2 2<CR>$/;"	m
+<S-CR>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <S-CR> <Plug>VimwikiSplitLink$/;"	m
+<S-LeftMouse>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <buffer> <S-LeftMouse> <NOP>$/;"	m
+<S-TAB>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <S-TAB> <Plug>VimwikiPrevLink$/;"	m
+<S-Tab>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^   inoremap <expr> <buffer> <S-Tab> vimwiki#tbl#kbd_shift_tab()$/;"	m
 <SID>TogBG	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^noremap <SID>TogBG  :call <SID>TogBG()<CR>$/;"	m
+<TAB>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> <TAB> <Plug>VimwikiNextLink$/;"	m
+<Tab>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^   inoremap <expr> <buffer> <Tab> vimwiki#tbl#kbd_tab()$/;"	m
 <cr>	vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^    nnoremap <silent> <buffer> <cr> :call nerdtree#ui_glue#invokeKeyMap(g:NERDTreeMapActivateNod/;"	m
 <esc><esc>	vimrc	/^nnoremap <silent><esc><esc> :nohlsearch<CR><esc>$/;"	m
 <leader>bn	vimrc	/^nnoremap <leader>bn :bn<CR>$/;"	m
 <leader>bp	vimrc	/^nnoremap <leader>bp :bp<CR>$/;"	m
+<leader>md	vimrc	/^nnoremap <silent><leader>md :InstantMarkdownPreview<CR>$/;"	m
 <leader>nt	vimrc	/^nnoremap <leader>nt :NERDTreeToggle<esc><CR>$/;"	m
 <space>	vimrc	/^nnoremap <space> za$/;"	m
+=	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> = <Plug>VimwikiAddHeaderLevel$/;"	m
 AirlineRefresh	vim/bundle/vim-airline/plugin/airline.vim	/^command! -bar AirlineRefresh call s:airline_refresh()$/;"	c
 AirlineTheme	vim/bundle/vim-airline/plugin/airline.vim	/^command! -bar -nargs=? -complete=customlist,<sid>get_airline_themes AirlineTheme call <sid>airli/;"	c
 AirlineToggle	vim/bundle/vim-airline/plugin/airline.vim	/^command! -bar AirlineToggle call s:airline_toggle()$/;"	c
@@ -69,6 +133,7 @@ ClearAllBookmarks	vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^    command! -b
 ClearAllCtrlPCaches	vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearAllCtrlPCaches cal ctrlp#clra()$/;"	c
 ClearBookmarks	vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^    command! -buffer -complete=customlist,nerdtree#completeBookmarks -nargs=* ClearBookmarks cal/;"	c
 ClearCtrlPCache	vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearCtrlPCache     cal ctrlp#clr()$/;"	c
+Complete_wikifiles	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! Complete_wikifiles(findstart, base)$/;"	f
 CtrlP	vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlP         cal ctrlp#init(0, { 'dir': <q-args> })$/;"	c
 CtrlPAug	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^	aug CtrlPAug$/;"	a
 CtrlPBookmarkDir	vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBookmarkDir cal ctrlp#init(ctrlp#bookmarkdir#id())$/;"	c
@@ -115,6 +180,7 @@ GutentagsUpdate	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    command! -
 Helptags	vim/autoload/pathogen.vim	/^command! -bar Helptags :call pathogen#helptags()$/;"	c
 INDEX_WHOLE_PROJECT	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set INDEX_WHOLE_PROJECT=0$/;"	v
 INDEX_WHOLE_PROJECT	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set INDEX_WHOLE_PROJECT=1$/;"	v
+InstantMarkdownPreview	vim/after/ftplugin/markdown/instant-markdown.vim	/^    command! -buffer InstantMarkdownPreview call s:previewMarkdown()$/;"	c
 LOG_FILE	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set LOG_FILE=%~2$/;"	v
 LOG_FILE	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
 LOG_FILE	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set LOG_FILE=$/;"	v
@@ -153,6 +219,7 @@ NERDTreeQuickLook	vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NE
 NERDTreeRender	vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
 NERDTreeRevealInFinder	vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
 NERDTreeToggle	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^    command! -n=? -complete=dir -bar NERDTreeToggle :call g:NERDTreeCreator.ToggleTabTree('<args/;"	c
+O	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <silent> <buffer> O :<C-U>call vimwiki#lst#kbd_O()<CR>$/;"	m
 OpenBookmark	vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^    command! -buffer -complete=customlist,nerdtree#completeBookmarks -nargs=1 OpenBookmark :call/;"	c
 PAUSE_BEFORE_EXIT	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PAUSE_BEFORE_EXIT=1$/;"	v
 PAUSE_BEFORE_EXIT	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PAUSE_BEFORE_EXIT=0$/;"	v
@@ -575,7 +642,77 @@ Usage	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Usage$/;"	l
 Util1	vim/bundle/vim-airline/t/util.vim	/^function! Util1()$/;"	f
 Util2	vim/bundle/vim-airline/t/util.vim	/^function! Util2()$/;"	f
 Util3	vim/bundle/vim-airline/t/util.vim	/^function! Util3(...)$/;"	f
+VWB	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=0 VWB call vimwiki#base#backlinks()$/;"	c
+Validate_wiki_options	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! Validate_wiki_options(idx) " {{{$/;"	f
+Vimwiki2HTML	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer Vimwiki2HTML$/;"	c
+Vimwiki2HTMLBrowse	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer Vimwiki2HTMLBrowse$/;"	c
+VimwikiAll2HTML	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiAll2HTML$/;"	c
+VimwikiBacklinks	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=0 VimwikiBacklinks call vimwiki#base#backlinks()$/;"	c
+VimwikiCatUrl	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiCatUrl call vimwiki#html#CatUrl(expand('%:p'))$/;"	c
+VimwikiChangeSymbolInListTo	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=1 VimwikiChangeSymbolInListTo call vimwiki#lst#change_marker_in_list(<f-/;"	c
+VimwikiChangeSymbolTo	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -range -nargs=1 VimwikiChangeSymbolTo call vimwiki#lst#change_marker(<line1>, </;"	c
+VimwikiCheckLinks	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiCheckLinks call vimwiki#base#check_links()$/;"	c
+VimwikiClear	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! VimwikiClear(option, ...) "{{{$/;"	f
+VimwikiDeleteLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiDeleteLink call vimwiki#base#delete_link()$/;"	c
+VimwikiDiaryGenerateLinks	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! VimwikiDiaryGenerateLinks$/;"	c
+VimwikiDiaryIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiDiaryIndex$/;"	c
+VimwikiDiaryNextDay	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiDiaryNextDay call vimwiki#diary#goto_next_day()$/;"	c
+VimwikiDiaryPrevDay	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiDiaryPrevDay call vimwiki#diary#goto_prev_day()$/;"	c
+VimwikiFoldLevel	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! VimwikiFoldLevel(lnum) "{{{$/;"	f
+VimwikiFoldListLevel	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! VimwikiFoldListLevel(lnum) "{{{$/;"	f
+VimwikiFoldText	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! VimwikiFoldText() "{{{$/;"	f
+VimwikiFollowLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiFollowLink call vimwiki#base#follow_link('nosplit', 0, 1)$/;"	c
+VimwikiGenerateLinks	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiGenerateLinks call vimwiki#base#generate_links()$/;"	c
+VimwikiGenerateTags	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^      \\ VimwikiGenerateTags call vimwiki#tags#generate_tags(<f-args>)$/;"	c
+VimwikiGet	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! VimwikiGet(option, ...) "{{{$/;"	f
+VimwikiGetOptionNames	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! VimwikiGetOptionNames() "{{{$/;"	f
+VimwikiGetOptions	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! VimwikiGetOptions(...) "{{{$/;"	f
+VimwikiGoBackLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiGoBackLink call vimwiki#base#go_back_link()$/;"	c
+VimwikiGoto	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^      \\ VimwikiGoto call vimwiki#base#goto(<f-args>)$/;"	c
+VimwikiIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiIndex$/;"	c
+VimwikiLinkConverter	vim/bundle/vimwiki/plugin/vimwiki.vim	/^  function VimwikiLinkConverter(url, source, target)$/;"	f
+VimwikiLinkHandler	vim/bundle/vimwiki/plugin/vimwiki.vim	/^  function VimwikiLinkHandler(url)$/;"	f
+VimwikiListChangeLvl	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -range -nargs=+ VimwikiListChangeLvl call vimwiki#lst#change_level(<line1>, <li/;"	c
+VimwikiListChangeSymbolI	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -range -nargs=1 VimwikiListChangeSymbolI call vimwiki#lst#change_marker(<line1>/;"	c
+VimwikiListToggle	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiListToggle call vimwiki#lst#toggle_list_item()$/;"	c
+VimwikiMakeDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiMakeDiaryNote$/;"	c
+VimwikiMakeYesterdayDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiMakeYesterdayDiaryNote$/;"	c
+VimwikiNextLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiNextLink call vimwiki#base#find_next_link()$/;"	c
+VimwikiNormalizeLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=? VimwikiNormalizeLink call vimwiki#base#normalize_link(<f-args>)$/;"	c
+VimwikiPasteUrl	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiPasteUrl call vimwiki#html#PasteUrl(expand('%:p'))$/;"	c
+VimwikiPrevLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiPrevLink call vimwiki#base#find_prev_link()$/;"	c
+VimwikiPrintWikiState	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! VimwikiPrintWikiState call vimwiki#base#print_wiki_state()$/;"	c
+VimwikiReadLocalOptions	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! VimwikiReadLocalOptions call vimwiki#base#read_wiki_options(1)$/;"	c
+VimwikiRebuildTags	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^      \\ VimwikiRebuildTags call vimwiki#tags#update_tags(1, '<bang>')$/;"	c
+VimwikiRemoveCBInList	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiRemoveCBInList call vimwiki#lst#remove_cb_in_list()$/;"	c
+VimwikiRemoveSingleCB	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -range VimwikiRemoveSingleCB call vimwiki#lst#remove_cb(<line1>, <line2>)$/;"	c
+VimwikiRenameLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiRenameLink call vimwiki#base#rename_link()$/;"	c
+VimwikiRenumberAllLists	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiRenumberAllLists call vimwiki#lst#adjust_whole_buffer()$/;"	c
+VimwikiRenumberList	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiRenumberList call vimwiki#lst#adjust_numbered_list()$/;"	c
+VimwikiReturn	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=+ VimwikiReturn call <SID>CR(<f-args>)$/;"	c
+VimwikiSearchTags	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^      \\ VimwikiSearchTags VimwikiSearch \/:<args>:\/$/;"	c
+VimwikiSet	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! VimwikiSet(option, value, ...) "{{{$/;"	f
+VimwikiSplitLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiSplitLink call vimwiki#base#follow_link('hsplit', 0, 1)$/;"	c
+VimwikiTOC	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTOC call vimwiki#base#table_of_contents(1)$/;"	c
+VimwikiTabIndex	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiTabIndex$/;"	c
+VimwikiTabMakeDiaryNote	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! -count=1 VimwikiTabMakeDiaryNote$/;"	c
+VimwikiTable	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -nargs=* VimwikiTable call vimwiki#tbl#create(<f-args>)$/;"	c
+VimwikiTableAlignQ	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTableAlignQ call vimwiki#tbl#align_or_cmd('gqq')$/;"	c
+VimwikiTableAlignW	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTableAlignW call vimwiki#tbl#align_or_cmd('gww')$/;"	c
+VimwikiTableMoveColumnLeft	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTableMoveColumnLeft call vimwiki#tbl#move_column_left()$/;"	c
+VimwikiTableMoveColumnRight	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTableMoveColumnRight call vimwiki#tbl#move_column_right()$/;"	c
+VimwikiTabnewLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiTabnewLink call vimwiki#base#follow_link('tab', 0, 1)$/;"	c
+VimwikiToggleListItem	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer -range VimwikiToggleListItem call vimwiki#lst#toggle_cb(<line1>, <line2>)$/;"	c
+VimwikiUISelect	vim/bundle/vimwiki/plugin/vimwiki.vim	/^command! VimwikiUISelect call vimwiki#base#ui_select()$/;"	c
+VimwikiVSplitLink	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^command! -buffer VimwikiVSplitLink call vimwiki#base#follow_link('vsplit', 0, 1)$/;"	c
+VimwikiWikiIncludeHandler	vim/bundle/vimwiki/plugin/vimwiki.vim	/^  function! VimwikiWikiIncludeHandler(value) "{{{$/;"	f
 WriteBookmarks	vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^    command! -buffer -nargs=0 WriteBookmarks call g:NERDTreeBookmark.Write()$/;"	c
+a\\	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> a\\ :<C-U>call vimwiki#base#TO_table_cell(0, 0)<CR>$/;"	m
+a\\	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> a\\ :<C-U>call vimwiki#base#TO_table_cell(0, 1)<CR>$/;"	m
+ac	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> ac :<C-U>call vimwiki#base#TO_table_col(0, 0)<CR>$/;"	m
+ac	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> ac :<C-U>call vimwiki#base#TO_table_col(0, 1)<CR>$/;"	m
+ah	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> ah :<C-U>call vimwiki#base#TO_header(0, 0)<CR>$/;"	m
+ah	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> ah :<C-U>call vimwiki#base#TO_header(0, 1)<CR>$/;"	m
 airline	vim/bundle/vim-airline/plugin/airline.vim	/^    augroup airline$/;"	a
 airline#add_inactive_statusline_func	vim/bundle/vim-airline/autoload/airline.vim	/^function! airline#add_inactive_statusline_func(name)$/;"	f
 airline#add_statusline_func	vim/bundle/vim-airline/autoload/airline.vim	/^function! airline#add_statusline_func(name)$/;"	f
@@ -767,8 +904,19 @@ airline_tabline_ctrlspace	vim/bundle/vim-airline/autoload/airline/extensions/tab
 airline_tabline_tabs	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^  augroup airline_tabline_tabs$/;"	a
 airline_whitespace	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^    augroup airline_whitespace$/;"	a
 airline_whitespace	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^  augroup airline_whitespace$/;"	a
+al	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> al :<C-U>call vimwiki#lst#TO_list_item(0, 0)<CR>$/;"	m
+al	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> al :<C-U>call vimwiki#lst#TO_list_item(0, 1)<CR>$/;"	m
 apps_dir_from_src	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^apps_dir_from_src(SrcFile) ->$/;"	f
+b:current_syntax	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let b:current_syntax="vimwiki"$/;"	v
+b:did_ftplugin	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let b:did_ftplugin = 1  " Don't load another plugin for this buffer$/;"	v
+b:existing_wikidirs	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let b:existing_wikidirs  =$/;"	v
+b:existing_wikifiles	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let b:existing_wikifiles =$/;"	v
+b:undo_ftplugin	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let b:undo_ftplugin = "setlocal ".$/;"	v
+blockquote	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^blockquote {padding: 0.4em; background-color: #f6f5eb;}$/;"	s
+blockquote	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+body	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^body {font-family: Tahoma, Geneva, sans-serif; margin: 1em 2em 1em 2em; font-size: 100%; line-he/;"	s
 c	vim/bundle/vim-airline/t/airline.vim	/^    let c = len(g:airline_statusline_funcrefs)$/;"	v
+code	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^code {$/;"	s
 colors	vim/bundle/vim-airline/t/themes.vim	/^    let colors = airline#themes#get_highlight('Foo')$/;"	v
 colors_name	vim/bundle/flattened/colors/flattened_dark.vim	/^let colors_name = 'flattened_dark'$/;"	v
 colors_name	vim/bundle/flattened/colors/flattened_light.vim	/^let colors_name = 'flattened_light'$/;"	v
@@ -865,6 +1013,9 @@ ctrlp#utils#mkdir	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#util
 ctrlp#utils#opts	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#opts()$/;"	f
 ctrlp#utils#readfile	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#readfile(file)$/;"	f
 ctrlp#utils#writecache	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#writecache(lines, ...)$/;"	f
+del	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^del {text-decoration: line-through; color: #777777;}$/;"	s
+dl	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+dt	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^dt {font-weight: bold;}$/;"	s
 erlangmk_file	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^erlangmk_file(Dir) -> filename:join(Dir, "erlang.mk").$/;"	f
 erlangmk_format_erl_libs	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^erlangmk_format_erl_libs(ErlLibsLine) ->$/;"	f
 erlangmk_format_erlc_opts	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^erlangmk_format_erlc_opts(ErlcOptsLines, BaseDir) ->$/;"	f
@@ -882,6 +1033,7 @@ erlangmk_format_opts	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_fi
 erlangmk_opts	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^erlangmk_opts(BaseDir, Profile) ->$/;"	f
 erlangmk_port_receive_loop	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^erlangmk_port_receive_loop(Port, Stdout, BaseDir) ->$/;"	f
 fallback_opts	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^fallback_opts() ->$/;"	f
+filetypedetect	vim/bundle/vimwiki/plugin/vimwiki.vim	/^augroup filetypedetect$/;"	a
 g:	vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^            let g:[newname] = g:[key]$/;"	v
 g:CtrlSpaceStatuslineFunction	vim/bundle/vim-airline/autoload/airline/extensions/ctrlspace.vim	/^  let g:CtrlSpaceStatuslineFunction = "airline#extensions#ctrlspace#statusline()"$/;"	v
 g:NERDTree	vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let g:NERDTree = s:NERDTree$/;"	v
@@ -1019,6 +1171,8 @@ g:bufferline_active_buffer_right	vim/bundle/vim-airline/autoload/airline/extensi
 g:bufferline_active_highlight	vim/bundle/vim-airline/autoload/airline/extensions/bufferline.vim	/^    let g:bufferline_active_highlight = 'bufferline_selected'$/;"	v
 g:bufferline_inactive_highlight	vim/bundle/vim-airline/autoload/airline/extensions/bufferline.vim	/^    let g:bufferline_inactive_highlight = 'airline_c'$/;"	v
 g:bufferline_separator	vim/bundle/vim-airline/autoload/airline/extensions/bufferline.vim	/^    let g:bufferline_separator = g:airline_symbols.space$/;"	v
+g:calendar_action	vim/bundle/vimwiki/plugin/vimwiki.vim	/^  let g:calendar_action = 'vimwiki#diary#calendar_action'$/;"	v
+g:calendar_sign	vim/bundle/vimwiki/plugin/vimwiki.vim	/^  let g:calendar_sign = 'vimwiki#diary#calendar_sign'$/;"	v
 g:colors_name	vim/bundle/gruvbox/colors/gruvbox.vim	/^let g:colors_name='gruvbox'$/;"	v
 g:count	vim/bundle/vim-airline/t/util.vim	/^    let g:count = 0$/;"	v
 g:count	vim/bundle/vim-airline/t/util.vim	/^  let g:count += 1$/;"	v
@@ -1130,6 +1284,12 @@ g:gutentags_trace	vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentag
 g:indentLine_color_gui	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let g:indentLine_color_gui = s:bg2[0]$/;"	v
 g:indentLine_color_term	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let g:indentLine_color_term = s:bg2[1]$/;"	v
 g:indent_guides_auto_colors	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let g:indent_guides_auto_colors = 0$/;"	v
+g:instant_markdown_allow_external_content	vim/after/ftplugin/markdown/instant-markdown.vim	/^    let g:instant_markdown_allow_external_content = 1$/;"	v
+g:instant_markdown_allow_unsafe_content	vim/after/ftplugin/markdown/instant-markdown.vim	/^    let g:instant_markdown_allow_unsafe_content = 0$/;"	v
+g:instant_markdown_autostart	vim/after/ftplugin/markdown/instant-markdown.vim	/^    let g:instant_markdown_autostart = 1$/;"	v
+g:instant_markdown_autostart	vimrc	/^let g:instant_markdown_autostart = 0	"disable autostart$/;"	v
+g:instant_markdown_open_to_the_world	vim/after/ftplugin/markdown/instant-markdown.vim	/^    let g:instant_markdown_open_to_the_world = 0$/;"	v
+g:instant_markdown_slow	vim/after/ftplugin/markdown/instant-markdown.vim	/^    let g:instant_markdown_slow = 0$/;"	v
 g:lightline#colorscheme#flattened_dark#palette	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let g:lightline#colorscheme#flattened_dark#palette = lightline#colorscheme#flatten(s:p)$/;"	v
 g:lightline#colorscheme#flattened_light#palette	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_light.vim	/^	let g:lightline#colorscheme#flattened_light#palette = lightline#colorscheme#flatten(s:p)$/;"	v
 g:lightline#colorscheme#gruvbox#palette	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^  let g:lightline#colorscheme#gruvbox#palette = lightline#colorscheme#flatten(s:p)$/;"	v
@@ -1399,6 +1559,14 @@ g:loaded_syntastic_z80_z80syntaxchecker_checker	vim/bundle/syntastic/syntax_chec
 g:loaded_syntastic_zpt_zptlint_checker	vim/bundle/syntastic/syntax_checkers/zpt/zptlint.vim	/^let g:loaded_syntastic_zpt_zptlint_checker = 1$/;"	v
 g:loaded_syntastic_zsh_zsh_checker	vim/bundle/syntastic/syntax_checkers/zsh/zsh.vim	/^let g:loaded_syntastic_zsh_zsh_checker = 1$/;"	v
 g:loaded_togglebg	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^let g:loaded_togglebg = 1$/;"	v
+g:loaded_vimwiki	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let g:loaded_vimwiki = 1$/;"	v
+g:loaded_vimwiki_auto	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^let g:loaded_vimwiki_auto = 1$/;"	v
+g:loaded_vimwiki_diary_auto	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^let g:loaded_vimwiki_diary_auto = 1$/;"	v
+g:loaded_vimwiki_html_auto	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^let g:loaded_vimwiki_html_auto = 1$/;"	v
+g:loaded_vimwiki_list_auto	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^let g:loaded_vimwiki_list_auto = 1$/;"	v
+g:loaded_vimwiki_tbl_auto	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^let g:loaded_vimwiki_tbl_auto = 1$/;"	v
+g:local_wiki	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^          let g:local_wiki = {}$/;"	v
+g:local_wiki	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^  let g:local_wiki = {}$/;"	v
 g:netrw_force_overwrite_statusline	vim/bundle/vim-airline/autoload/airline/extensions/netrw.vim	/^  let g:netrw_force_overwrite_statusline = 0$/;"	v
 g:niji_dark_colours	vim/bundle/gruvbox/colors/gruvbox.vim	/^let g:niji_dark_colours = g:rbpt_colorpairs$/;"	v
 g:niji_light_colours	vim/bundle/gruvbox/colors/gruvbox.vim	/^let g:niji_light_colours = g:rbpt_colorpairs$/;"	v
@@ -1581,11 +1749,253 @@ g:terminal_color_9	vim/bundle/flattened/colors/flattened_light.vim	/^  let g:ter
 g:unite_force_overwrite_statusline	vim/bundle/vim-airline/autoload/airline/extensions/unite.vim	/^  let g:unite_force_overwrite_statusline = 0$/;"	v
 g:vimfiler_force_overwrite_statusline	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^    let g:vimfiler_force_overwrite_statusline = 0$/;"	v
 g:vimshell_escape_colors	vim/bundle/gruvbox/colors/gruvbox.vim	/^let g:vimshell_escape_colors = [$/;"	v
+g:vimwiki_	vim/bundle/vimwiki/plugin/vimwiki.vim	/^    let g:vimwiki_{a:varname} = a:value$/;"	v
+g:vimwiki_Weblink1Template	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_Weblink1Template = g:vimwiki_rxWeblink1Prefix . '__LinkDescription__'. $/;"	v
+g:vimwiki_WikiInclTemplate1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_WikiInclTemplate1 = g:vimwiki_rxWikiInclPrefix . '__LinkUrl__'. $/;"	v
+g:vimwiki_WikiInclTemplate2	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_WikiInclTemplate2 = g:vimwiki_rxWikiInclPrefix . '__LinkUrl__'. $/;"	v
+g:vimwiki_WikiLink1Template1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_WikiLink1Template1 = s:wikilink_md_prefix . '__LinkUrl__'.$/;"	v
+g:vimwiki_WikiLink1Template2	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_WikiLink1Template2 = s:wikilink_md_prefix. '__LinkDescription__'.$/;"	v
+g:vimwiki_WikiLinkMatchUrlTemplate	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_WikiLinkMatchUrlTemplate =$/;"	v
+g:vimwiki_WikiLinkMatchUrlTemplate	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_WikiLinkMatchUrlTemplate .=$/;"	v
+g:vimwiki_WikiLinkTemplate1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_WikiLinkTemplate1 = s:wikilink_prefix . '__LinkUrl__'.$/;"	v
+g:vimwiki_WikiLinkTemplate2	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_WikiLinkTemplate2 = s:wikilink_prefix . '__LinkUrl__'.$/;"	v
+g:vimwiki_bullet_types	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_bullet_types = { '-':0, '*':0, '#':0 }$/;"	v
+g:vimwiki_bullet_types	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_bullet_types = { '-':0, '*':0, '+':0 }$/;"	v
+g:vimwiki_bullet_types	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_bullet_types = { '*':1, '#':1 }$/;"	v
+g:vimwiki_char_bold	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_bold = '*'$/;"	v
+g:vimwiki_char_bold	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_bold = '*'$/;"	v
+g:vimwiki_char_bold	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_bold = "'''"$/;"	v
+g:vimwiki_char_bolditalic	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_bolditalic = '\\*_'$/;"	v
+g:vimwiki_char_bolditalic	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_bolditalic = '\\*_'$/;"	v
+g:vimwiki_char_bolditalic	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_bolditalic = "'''''"$/;"	v
+g:vimwiki_char_code	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_code = '`'$/;"	v
+g:vimwiki_char_code	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_code = '`'$/;"	v
+g:vimwiki_char_code	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_code = '`'$/;"	v
+g:vimwiki_char_deltext	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_deltext = '\\~\\~'$/;"	v
+g:vimwiki_char_deltext	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_deltext = '\\~\\~'$/;"	v
+g:vimwiki_char_deltext	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_deltext = '\\~\\~'$/;"	v
+g:vimwiki_char_eqin	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_eqin = '\\$'$/;"	v
+g:vimwiki_char_eqin	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_eqin = '\\$'$/;"	v
+g:vimwiki_char_eqin	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_eqin = '\\$'$/;"	v
+g:vimwiki_char_italic	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_italic = '_'$/;"	v
+g:vimwiki_char_italic	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_italic = '_'$/;"	v
+g:vimwiki_char_italic	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_italic = "''"$/;"	v
+g:vimwiki_char_italicbold	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_italicbold = '_\\*'$/;"	v
+g:vimwiki_char_italicbold	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_italicbold = '_\\*'$/;"	v
+g:vimwiki_char_italicbold	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_italicbold = g:vimwiki_char_bolditalic$/;"	v
+g:vimwiki_char_subscript	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_subscript = ',,'$/;"	v
+g:vimwiki_char_subscript	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_subscript = ',,'$/;"	v
+g:vimwiki_char_subscript	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_subscript = ',,'$/;"	v
+g:vimwiki_char_superscript	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_char_superscript = '^'$/;"	v
+g:vimwiki_char_superscript	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_char_superscript = '^'$/;"	v
+g:vimwiki_char_superscript	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_char_superscript = '^'$/;"	v
+g:vimwiki_current_idx	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^    let g:vimwiki_current_idx = b:vimwiki_idx$/;"	v
+g:vimwiki_current_idx	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^  let g:vimwiki_current_idx = a:idx$/;"	v
+g:vimwiki_default_bold_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_bold_match = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<=\\*__Text__\\*\\%([[:punct:/;"	v
+g:vimwiki_default_bold_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_bold_search = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<=\\*\\zs\\%([^*`[:space:]][/;"	v
+g:vimwiki_default_header_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_header_match = '^\\s*\\(=\\{1,6}\\)=\\@!\\s*__Header__\\s*\\1=\\@!\\s*$'$/;"	v
+g:vimwiki_default_header_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_header_search = '^\\s*\\(=\\{1,6}\\)\\([^=].*[^=]\\)\\1\\s*$'$/;"	v
+g:vimwiki_default_tag_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_tag_match =  '\\(^\\|\\s\\):\\([^:''[:space:]]\\+:\\)*__Tag__:\\([^:[:spac/;"	v
+g:vimwiki_default_tag_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_tag_search = '\\(^\\|\\s\\)\\zs:\\([^:''[:space:]]\\+:\\)\\+\\ze\\(\\s\\|$/;"	v
+g:vimwiki_default_wikilink	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_default_wikilink = '\\[\\[\\zs[^\\\\\\]|]\\+\\ze\\%(|[^\\\\\\]]\\+\\)\\?\\]\\]'$/;"	v
+g:vimwiki_ext2syntax	vimrc	/^let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown' }$/;"	v
+g:vimwiki_hcolor_ctermfg_dark	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_hcolor_ctermfg_dark = ['Red','Green','Blue','White','White','White']$/;"	v
+g:vimwiki_hcolor_ctermfg_light	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_hcolor_ctermfg_light = ['DarkRed','DarkGreen','DarkBlue','Black','Black','Black'/;"	v
+g:vimwiki_hcolor_guifg_dark	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_hcolor_guifg_dark = ['#e08090','#80e090','#6090e0','#c0c0f0','#e0e0f0','#f0f0f0'/;"	v
+g:vimwiki_hcolor_guifg_light	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_hcolor_guifg_light = ['#aa5858','#507030','#1030a0','#103040','#505050','#636363/;"	v
+g:vimwiki_list	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^      let g:vimwiki_list = deepcopy(l:vimwiki_list, 1)$/;"	v
+g:vimwiki_list	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^    let g:vimwiki_list = deepcopy(l:vimwiki_list, 1)$/;"	v
+g:vimwiki_list	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^    let g:vimwiki_list[g:vimwiki_current_idx][kk] = a:options[kk]$/;"	v
+g:vimwiki_list	vim/bundle/vimwiki/plugin/vimwiki.vim	/^    let g:vimwiki_list[idx][a:option] = a:value$/;"	v
+g:vimwiki_list	vim/bundle/vimwiki/plugin/vimwiki.vim	/^    let g:vimwiki_list[idx][a:option] = val$/;"	v
+g:vimwiki_list	vimrc	/^let g:vimwiki_list = [{'path': '~\/vimwiki\/', $/;"	v
+g:vimwiki_list_markers	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_list_markers = ['-', '1.', '*', 'I)', 'a)']$/;"	v
+g:vimwiki_list_markers	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_list_markers = ['-', '*', '+', '1.']$/;"	v
+g:vimwiki_list_markers	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_list_markers = ['*', '#']$/;"	v
+g:vimwiki_listsyms_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^  let g:vimwiki_listsyms_list = split(g:vimwiki_listsyms, '\\zs')$/;"	v
+g:vimwiki_markdown_bold_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_bold_match = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<=\\*__Text__\\*\\%([[:punct/;"	v
+g:vimwiki_markdown_bold_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_bold_search = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<=\\*\\zs\\%([^*`[:space:]]/;"	v
+g:vimwiki_markdown_header_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_header_match = '^\\s*\\(#\\{1,6}\\)#\\@!\\s*__Header__\\s*$'$/;"	v
+g:vimwiki_markdown_header_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_header_search = '^\\s*\\(#\\{1,6}\\)\\([^#].*\\)$'$/;"	v
+g:vimwiki_markdown_tag_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_tag_match = g:vimwiki_default_tag_match$/;"	v
+g:vimwiki_markdown_tag_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_tag_search = g:vimwiki_default_tag_search$/;"	v
+g:vimwiki_markdown_wikilink	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_markdown_wikilink = g:vimwiki_default_wikilink "XXX plus markdown-style links$/;"	v
+g:vimwiki_media_bold_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_bold_match = '''''''__Text__'''''''$/;"	v
+g:vimwiki_media_bold_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_bold_search = "'''\\\\zs[^']\\\\+\\\\ze'''"$/;"	v
+g:vimwiki_media_header_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_header_match = '^\\s*\\(=\\{1,6}\\)=\\@!\\s*__Header__\\s*\\1=\\@!\\s*$'$/;"	v
+g:vimwiki_media_header_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_header_search = '^\\s*\\(=\\{1,6}\\)\\([^=].*[^=]\\)\\1\\s*$'$/;"	v
+g:vimwiki_media_tag_match	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_tag_match = g:vimwiki_default_tag_match " XXX rework to mediawiki categories/;"	v
+g:vimwiki_media_tag_search	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_tag_search = g:vimwiki_default_tag_search " XXX rework to mediawiki categori/;"	v
+g:vimwiki_media_wikilink	vim/bundle/vimwiki/syntax/omnipresent_syntax.vim	/^let g:vimwiki_media_wikilink = g:vimwiki_default_wikilink$/;"	v
+g:vimwiki_number_types	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_number_types = ['1)', '1.', 'i)', 'I)', 'a)', 'A)']$/;"	v
+g:vimwiki_number_types	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_number_types = ['1.']$/;"	v
+g:vimwiki_number_types	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_number_types = []$/;"	v
+g:vimwiki_rxAnyLink	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxAnyLink = g:vimwiki_rxWikiLink.'\\|'. $/;"	v
+g:vimwiki_rxAnyLink	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxAnyLink = g:vimwiki_rxWikiLink.'\\|'. $/;"	v
+g:vimwiki_rxBold	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxBold = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxBold	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxBold = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxBold	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxBold = "'''[^']\\\\+'''"$/;"	v
+g:vimwiki_rxBoldItalic	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxBoldItalic = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxBoldItalic	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxBoldItalic = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxBoldItalic	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxBoldItalic = "'''''[^']\\\\+'''''"$/;"	v
+g:vimwiki_rxCode	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxCode = '`[^`]\\+`'$/;"	v
+g:vimwiki_rxCode	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxCode = '`[^`]\\+`'$/;"	v
+g:vimwiki_rxCode	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxCode = '`[^`]\\+`'$/;"	v
+g:vimwiki_rxComment	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxComment = '^\\s*%%.*$'$/;"	v
+g:vimwiki_rxComment	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxComment = '^\\s*%%.*$'$/;"	v
+g:vimwiki_rxComment	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxComment = '^\\s*%%.*$'$/;"	v
+g:vimwiki_rxDelText	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxDelText = '\\~\\~[^~`]\\+\\~\\~'$/;"	v
+g:vimwiki_rxDelText	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxDelText = '\\~\\~[^~`]\\+\\~\\~'$/;"	v
+g:vimwiki_rxDelText	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxDelText = '\\~\\~[^~]\\+\\~\\~'$/;"	v
+g:vimwiki_rxEqIn	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxEqIn = '\\$[^$`]\\+\\$'$/;"	v
+g:vimwiki_rxEqIn	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxEqIn = '\\$[^$`]\\+\\$'$/;"	v
+g:vimwiki_rxEqIn	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxEqIn = '\\$[^$`]\\+\\$'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i} = '^\\s*'.g:vimwiki_rxH.'\\{'.s:i.'}[^'.g:vimwiki_rxH.'].*$'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i} = '^\\s*'.g:vimwiki_rxH.'\\{'.s:i.'}[^'.g:vimwiki_rxH.'].*[^'.g:vimwi/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_End = '^\\s*'.g:vimwiki_rxH.'\\{1,'.s:i.'}[^'.g:vimwiki_rxH.'].*$'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_End = '^\\s*'.g:vimwiki_rxH.'\\{1,'.s:i.'}[^'.g:vimwiki_rxH.'].*[^'.g/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_Start = '^\\s*'.g:vimwiki_rxH.'\\{'.s:i.'}[^'.g:vimwiki_rxH.'].*$'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_Start = '^\\s*'.g:vimwiki_rxH.'\\{'.s:i.'}[^'.g:vimwiki_rxH.'].*[^'.g/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_Template = repeat(g:vimwiki_rxH, s:i).' __Header__ '.repeat(g:vimwiki/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki.vim	/^    let g:vimwiki_rxH{s:i}_Template = repeat(g:vimwiki_rxH, s:i).' __Header__'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxH = '='$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxH = '#'$/;"	v
+g:vimwiki_rxH	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxH = '='$/;"	v
+g:vimwiki_rxHR	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxHR = '^-----*$'$/;"	v
+g:vimwiki_rxHR	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxHR = '^-----*$'$/;"	v
+g:vimwiki_rxHR	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxHR = '^-----*$'$/;"	v
+g:vimwiki_rxHeader	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_rxHeader = '^\\s*\\('.g:vimwiki_rxH.'\\{1,6}\\)\\zs[^'.g:vimwiki_rxH.'].*[^'.g:v/;"	v
+g:vimwiki_rxHeader	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let g:vimwiki_rxHeader = '^\\s*\\('.g:vimwiki_rxH.'\\{1,6}\\)\\zs[^'.g:vimwiki_rxH.'].*\\ze$'$/;"	v
+g:vimwiki_rxItalic	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxItalic = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxItalic	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxItalic = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxItalic	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxItalic = "''[^']\\\\+''"$/;"	v
+g:vimwiki_rxItalicBold	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxItalicBold = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxItalicBold	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxItalicBold = '\\%(^\\|\\s\\|[[:punct:]]\\)\\@<='.$/;"	v
+g:vimwiki_rxItalicBold	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxItalicBold = g:vimwiki_rxBoldItalic$/;"	v
+g:vimwiki_rxListBullet	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^  let g:vimwiki_rxListBullet = join( map(keys(g:vimwiki_bullet_types),$/;"	v
+g:vimwiki_rxListDefine	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxListDefine = '::\\(\\s\\|$\\)'$/;"	v
+g:vimwiki_rxListDefine	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxListDefine = '::\\%(\\s\\|$\\)'$/;"	v
+g:vimwiki_rxListDefine	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxListDefine = '^\\%(;\\|:\\)\\s'$/;"	v
+g:vimwiki_rxListItem	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxListItem = g:vimwiki_rxListItemWithoutCB . '\\+\\%(\\[\\(['.g:vimwiki_listsyms.'/;"	v
+g:vimwiki_rxListItem	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxListItem = g:vimwiki_rxListItemWithoutCB . '\\+\\%(\\[\\(['.g:vimwiki_listsyms.'/;"	v
+g:vimwiki_rxListItem	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxListItem = g:vimwiki_rxListItemWithoutCB . '\\+\\%(\\[\\(['.g:vimwiki_listsyms.'/;"	v
+g:vimwiki_rxListItemAndChildren	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxListItemAndChildren = '^\\(\\s*\\)\\%('.g:vimwiki_rxListBullet.'\\|'.g:vimwiki_r/;"	v
+g:vimwiki_rxListItemAndChildren	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxListItemAndChildren = '^\\(\\s*\\)\\%('.g:vimwiki_rxListBullet.'\\|'.g:vimwiki_r/;"	v
+g:vimwiki_rxListItemAndChildren	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxListItemAndChildren = '^\\('.g:vimwiki_rxListBullet.'\\)\\s\\+\\['.g:vimwiki_lis/;"	v
+g:vimwiki_rxListItemWithoutCB	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxListItemWithoutCB = '^\\s*\\%(\\('.g:vimwiki_rxListBullet.'\\)\\|\\('.g:vimwiki_/;"	v
+g:vimwiki_rxListItemWithoutCB	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxListItemWithoutCB = '^\\s*\\%(\\('.g:vimwiki_rxListBullet.'\\)\\|\\('.g:vimwiki_/;"	v
+g:vimwiki_rxListItemWithoutCB	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxListItemWithoutCB = '^\\s*\\%(\\('.g:vimwiki_rxListBullet.'\\)\\|\\('.g:vimwiki_/;"	v
+g:vimwiki_rxListNumber	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^      let g:vimwiki_rxListNumber .= s:char_to_rx[type[0]] .$/;"	v
+g:vimwiki_rxListNumber	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^    let g:vimwiki_rxListNumber .= s:char_to_rx[g:vimwiki_number_types[-1][0]].$/;"	v
+g:vimwiki_rxListNumber	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^    let g:vimwiki_rxListNumber = '$^'$/;"	v
+g:vimwiki_rxListNumber	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^    let g:vimwiki_rxListNumber = '\\C\\%('$/;"	v
+g:vimwiki_rxMathEnd	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxMathEnd = '^\\s*'.g:vimwiki_rxMathEnd.'\\s*$'$/;"	v
+g:vimwiki_rxMathEnd	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxMathEnd = '}}\\$'$/;"	v
+g:vimwiki_rxMathEnd	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxMathEnd = '\\$\\$'$/;"	v
+g:vimwiki_rxMathEnd	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxMathEnd = '}}\\$'$/;"	v
+g:vimwiki_rxMathStart	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxMathStart = '^\\s*'.g:vimwiki_rxMathStart$/;"	v
+g:vimwiki_rxMathStart	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxMathStart = '{{\\$'$/;"	v
+g:vimwiki_rxMathStart	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxMathStart = '\\$\\$'$/;"	v
+g:vimwiki_rxMathStart	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxMathStart = '{{\\$'$/;"	v
+g:vimwiki_rxMkdRef	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxMkdRef = '\\['.g:vimwiki_rxWikiLinkDescr.']:\\%(\\s\\+\\|\\n\\)'.$/;"	v
+g:vimwiki_rxMkdRefMatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxMkdRefMatchDescr = '\\[\\zs'.g:vimwiki_rxWikiLinkDescr.'\\ze]:\\%(\\s\\+\\|\\n\\/;"	v
+g:vimwiki_rxMkdRefMatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxMkdRefMatchUrl = '\\['.g:vimwiki_rxWikiLinkDescr.']:\\%(\\s\\+\\|\\n\\)\\zs'.$/;"	v
+g:vimwiki_rxPreEnd	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxPreEnd = '^\\s*'.g:vimwiki_rxPreEnd.'\\s*$'$/;"	v
+g:vimwiki_rxPreEnd	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxPreEnd = '}}}'$/;"	v
+g:vimwiki_rxPreEnd	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxPreEnd = '```'$/;"	v
+g:vimwiki_rxPreEnd	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxPreEnd = '<\\\/pre>'$/;"	v
+g:vimwiki_rxPreStart	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxPreStart = '^\\s*'.g:vimwiki_rxPreStart$/;"	v
+g:vimwiki_rxPreStart	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxPreStart = '{{{'$/;"	v
+g:vimwiki_rxPreStart	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxPreStart = '```'$/;"	v
+g:vimwiki_rxPreStart	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxPreStart = '<pre>'$/;"	v
+g:vimwiki_rxSubScript	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxSubScript = ',,[^,`]\\+,,'$/;"	v
+g:vimwiki_rxSubScript	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxSubScript = ',,[^,`]\\+,,'$/;"	v
+g:vimwiki_rxSubScript	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxSubScript = ',,[^,]\\+,,'$/;"	v
+g:vimwiki_rxSuperScript	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxSuperScript = '\\^[^^`]\\+\\^'$/;"	v
+g:vimwiki_rxSuperScript	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxSuperScript = '\\^[^^`]\\+\\^'$/;"	v
+g:vimwiki_rxSuperScript	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxSuperScript = '\\^[^^]\\+\\^'$/;"	v
+g:vimwiki_rxTableSep	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxTableSep = '|'$/;"	v
+g:vimwiki_rxTableSep	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxTableSep = '|'$/;"	v
+g:vimwiki_rxTableSep	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxTableSep = '|'$/;"	v
+g:vimwiki_rxTags	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_rxTags = '\\%(^\\|\\s\\)\\@<=:\\%([^:''[:space:]]\\+:\\)\\+\\%(\\s\\|$\\)\\@='$/;"	v
+g:vimwiki_rxTags	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_rxTags = '\\%(^\\|\\s\\)\\@<=:\\%([^:[:space:]]\\+:\\)\\+\\%(\\s\\|$\\)\\@='$/;"	v
+g:vimwiki_rxTags	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_rxTags = '\\%(^\\|\\s\\)\\@<=:\\%([^:[:space:]]\\+:\\)\\+\\%(\\s\\|$\\)\\@='$/;"	v
+g:vimwiki_rxTodo	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxTodo = '\\C\\%(TODO:\\|DONE:\\|STARTED:\\|FIXME:\\|FIXED:\\|XXX:\\)'$/;"	v
+g:vimwiki_rxWebProtocols	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWebProtocols = ''.$/;"	v
+g:vimwiki_rxWeblink	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWeblink = '\\<'. g:vimwiki_rxWeblinkUrl . '\\S*'$/;"	v
+g:vimwiki_rxWeblink	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink = ''.$/;"	v
+g:vimwiki_rxWeblink0	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink0 = g:vimwiki_rxWeblink$/;"	v
+g:vimwiki_rxWeblink1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1 = g:vimwiki_rxWeblink1Prefix.$/;"	v
+g:vimwiki_rxWeblink1Descr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Descr = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWeblink1MatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1MatchDescr = g:vimwiki_rxWeblink1Prefix.$/;"	v
+g:vimwiki_rxWeblink1MatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1MatchUrl = g:vimwiki_rxWeblink1Prefix.$/;"	v
+g:vimwiki_rxWeblink1Prefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Prefix = '['$/;"	v
+g:vimwiki_rxWeblink1Prefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Prefix = vimwiki#u#escape(g:vimwiki_rxWeblink1Prefix)$/;"	v
+g:vimwiki_rxWeblink1Prefix1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Prefix1 = g:vimwiki_rxWeblink1Prefix$/;"	v
+g:vimwiki_rxWeblink1Separator	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Separator = ']('$/;"	v
+g:vimwiki_rxWeblink1Separator	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Separator = vimwiki#u#escape(g:vimwiki_rxWeblink1Separator)$/;"	v
+g:vimwiki_rxWeblink1Suffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Suffix = ')'$/;"	v
+g:vimwiki_rxWeblink1Suffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Suffix = vimwiki#u#escape(g:vimwiki_rxWeblink1Suffix)$/;"	v
+g:vimwiki_rxWeblink1Suffix1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Suffix1 = g:vimwiki_rxWeblink1Separator.$/;"	v
+g:vimwiki_rxWeblink1Url	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblink1Url = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWeblinkMatchDescr	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWeblinkMatchDescr = ''$/;"	v
+g:vimwiki_rxWeblinkMatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblinkMatchDescr = ''.$/;"	v
+g:vimwiki_rxWeblinkMatchDescr0	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblinkMatchDescr0 = g:vimwiki_rxWeblinkMatchDescr$/;"	v
+g:vimwiki_rxWeblinkMatchUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWeblinkMatchUrl = g:vimwiki_rxWeblink$/;"	v
+g:vimwiki_rxWeblinkMatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblinkMatchUrl = ''.$/;"	v
+g:vimwiki_rxWeblinkMatchUrl0	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWeblinkMatchUrl0 = g:vimwiki_rxWeblinkMatchUrl$/;"	v
+g:vimwiki_rxWeblinkUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWeblinkUrl = g:vimwiki_rxWebProtocols .$/;"	v
+g:vimwiki_rxWikiIncl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiIncl = g:vimwiki_rxWikiInclPrefix.$/;"	v
+g:vimwiki_rxWikiInclArg	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclArg = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWikiInclArgs	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclArgs = '\\%('. g:vimwiki_rxWikiInclSeparator. g:vimwiki_rxWikiInclArg. '/;"	v
+g:vimwiki_rxWikiInclMatchUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclMatchUrl = g:vimwiki_rxWikiInclPrefix.$/;"	v
+g:vimwiki_rxWikiInclPrefix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclPrefix = '{{'$/;"	v
+g:vimwiki_rxWikiInclPrefix1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclPrefix1 = g:vimwiki_rxWikiInclPrefix.$/;"	v
+g:vimwiki_rxWikiInclSeparator	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclSeparator = '|'$/;"	v
+g:vimwiki_rxWikiInclSuffix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclSuffix = '}}'$/;"	v
+g:vimwiki_rxWikiInclSuffix1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclSuffix1 = g:vimwiki_rxWikiInclArgs.$/;"	v
+g:vimwiki_rxWikiInclUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiInclUrl = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWikiLink	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiLink = s:rx_wikilink_prefix.$/;"	v
+g:vimwiki_rxWikiLink	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink = ''.$/;"	v
+g:vimwiki_rxWikiLink0	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink0 = g:vimwiki_rxWikiLink$/;"	v
+g:vimwiki_rxWikiLink0MatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink0MatchDescr = g:vimwiki_rxWikiLinkMatchDescr$/;"	v
+g:vimwiki_rxWikiLink0MatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink0MatchUrl = g:vimwiki_rxWikiLinkMatchUrl$/;"	v
+g:vimwiki_rxWikiLink1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1 = s:rx_wikilink_md_prefix.$/;"	v
+g:vimwiki_rxWikiLink1Descr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1Descr = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWikiLink1InvalidPrefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1InvalidPrefix = '[\\]\\[]\\@<!'$/;"	v
+g:vimwiki_rxWikiLink1InvalidSuffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1InvalidSuffix = '[\\]\\[]\\@!'$/;"	v
+g:vimwiki_rxWikiLink1MatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1MatchDescr = s:rx_wikilink_md_prefix.$/;"	v
+g:vimwiki_rxWikiLink1MatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1MatchUrl = s:rx_wikilink_md_prefix.$/;"	v
+g:vimwiki_rxWikiLink1Prefix1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1Prefix1 = s:rx_wikilink_md_prefix$/;"	v
+g:vimwiki_rxWikiLink1Suffix1	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1Suffix1 = s:rx_wikilink_md_separator.$/;"	v
+g:vimwiki_rxWikiLink1Url	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLink1Url = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWikiLinkDescr	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiLinkDescr = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWikiLinkMatchDescr	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiLinkMatchDescr = s:rx_wikilink_prefix.$/;"	v
+g:vimwiki_rxWikiLinkMatchDescr	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLinkMatchDescr = ''.$/;"	v
+g:vimwiki_rxWikiLinkMatchUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiLinkMatchUrl = s:rx_wikilink_prefix.$/;"	v
+g:vimwiki_rxWikiLinkMatchUrl	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let g:vimwiki_rxWikiLinkMatchUrl = ''.$/;"	v
+g:vimwiki_rxWikiLinkUrl	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWikiLinkUrl = s:valid_chars.'\\{-}'$/;"	v
+g:vimwiki_rxWord	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let g:vimwiki_rxWord = '[^[:blank:]!"$%&''()*+,:;<=>?\\[\\]\\\\^`{}]\\+'$/;"	v
+g:vimwiki_symH	vim/bundle/vimwiki/syntax/vimwiki_default.vim	/^let g:vimwiki_symH = 1$/;"	v
+g:vimwiki_symH	vim/bundle/vimwiki/syntax/vimwiki_markdown.vim	/^let g:vimwiki_symH = 0$/;"	v
+g:vimwiki_symH	vim/bundle/vimwiki/syntax/vimwiki_media.vim	/^let g:vimwiki_symH = 1$/;"	v
+gL<Space>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gL<Space> <Plug>VimwikiRemoveCBInList$/;"	m
+gLH	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gLH <Plug>VimwikiDecreaseLvlWholeItem$/;"	m
+gLL	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gLL <Plug>VimwikiIncreaseLvlWholeItem$/;"	m
+gLR	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> gLR <Plug>VimwikiRenumberAllLists$/;"	m
+gLh	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gLh <Plug>VimwikiDecreaseLvlWholeItem$/;"	m
+gLl	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gLl <Plug>VimwikiIncreaseLvlWholeItem$/;"	m
+gLr	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> gLr <Plug>VimwikiRenumberAllLists$/;"	m
 get_root	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^get_root(Dir) ->$/;"	f
 get_root	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^get_root(["src" | Tail], _Path) ->$/;"	f
 get_root	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^get_root(["test" | Tail], _Path) ->$/;"	f
 get_root	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^get_root([], Path) ->$/;"	f
 get_root	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^get_root([_ | Tail], Path) ->$/;"	f
+gl<Space>	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gl<Space> <Plug>VimwikiRemoveSingleCB$/;"	m
+glh	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> glh <Plug>VimwikiDecreaseLvlSingleItem$/;"	m
+gll	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  map <silent><buffer> gll <Plug>VimwikiIncreaseLvlSingleItem$/;"	m
+glr	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  nmap <silent><buffer> glr <Plug>VimwikiRenumberList$/;"	m
+gqq	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <buffer> gqq :VimwikiTableAlignQ<CR>$/;"	m
 gruvbox#hls_hide	vim/bundle/gruvbox/autoload/gruvbox.vim	/^function! gruvbox#hls_hide()$/;"	f
 gruvbox#hls_show	vim/bundle/gruvbox/autoload/gruvbox.vim	/^function! gruvbox#hls_show()$/;"	f
 gruvbox#hls_toggle	vim/bundle/gruvbox/autoload/gruvbox.vim	/^function! gruvbox#hls_toggle()$/;"	f
@@ -1625,11 +2035,37 @@ gutentags#toggletrace	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function
 gutentags#trace	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#trace(message, ...)$/;"	f
 gutentags#validate_cmd	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#validate_cmd(cmd) abort$/;"	f
 gutentags_detect	vim/bundle/vim-gutentags/plugin/gutentags.vim	/^augroup gutentags_detect$/;"	a
+gww	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <buffer> gww :VimwikiTableAlignW<CR>$/;"	m
+h1	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1 {font-size: 2.6em; color: #000000;}$/;"	s
+h1	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h2	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h2	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h2 {font-size: 2.2em; color: #404040;}$/;"	s
+h3	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h3	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h3 {font-size: 1.8em; color: #707070;}$/;"	s
+h4	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h4	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h4 {font-size: 1.4em; color: #909090;}$/;"	s
+h5	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h5	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h5 {font-size: 1.3em; color: #989898;}$/;"	s
+h6	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, Helvetica, sans-serif; font-weight: bold; lin/;"	s
+h6	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^h6 {font-size: 1.2em; color: #9c9c9c;}$/;"	s
 hl	vim/bundle/vim-airline/t/highlighter.vim	/^    let hl = airline#highlighter#get_highlight('Foo1_to_Foo2')$/;"	v
 hl	vim/bundle/vim-airline/t/themes.vim	/^    let hl = airline#themes#get_highlight('Foo', 'bold', 'italic')$/;"	v
 hl	vim/bundle/vim-airline/t/themes.vim	/^    let hl = airline#themes#get_highlight2(['Foo','bg'], ['Foo','fg'], 'italic', 'bold')$/;"	v
+hr	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^hr {border: none; border-top: 1px solid #ccc; width: 100%;}$/;"	s
 hs_highlight_boolean	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let hs_highlight_boolean=1$/;"	v
 hs_highlight_delimiters	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let hs_highlight_delimiters=1$/;"	v
+i\\	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> i\\ :<C-U>call vimwiki#base#TO_table_cell(1, 0)<CR>$/;"	m
+i\\	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> i\\ :<C-U>call vimwiki#base#TO_table_cell(1, 1)<CR>$/;"	m
+ic	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> ic :<C-U>call vimwiki#base#TO_table_col(1, 0)<CR>$/;"	m
+ic	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> ic :<C-U>call vimwiki#base#TO_table_col(1, 1)<CR>$/;"	m
+ih	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> ih :<C-U>call vimwiki#base#TO_header(1, 0)<CR>$/;"	m
+ih	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> ih :<C-U>call vimwiki#base#TO_header(1, 1)<CR>$/;"	m
+il	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^onoremap <silent><buffer> il :<C-U>call vimwiki#lst#TO_list_item(1, 0)<CR>$/;"	m
+il	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^vnoremap <silent><buffer> il :<C-U>call vimwiki#lst#TO_list_item(1, 1)<CR>$/;"	m
+img	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^img {border: none;}$/;"	s
+instant	vim/after/ftplugin/markdown/instant-markdown.vim	/^    aug instant-markdown$/;"	a
+instant	vim/after/ftplugin/markdown/instant-markdown.vim	/^  aug instant-markdown$/;"	a
+li	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^li {margin: 0.3em auto;}$/;"	s
 loaded_nerd_tree	vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
 main	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^main([File]) ->$/;"	f
 main	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^main(_) ->$/;"	f
@@ -1663,6 +2099,11 @@ nerdtree#ui_glue#setupCommands	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
 nerdtree#ui_glue#upDir	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#upDir(keepState)$/;"	f
 nerdtree#version	vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version()$/;"	f
 nested_app_ebins	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^nested_app_ebins() ->$/;"	f
+o	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^nnoremap <silent> <buffer> o :<C-U>call vimwiki#lst#kbd_o()<CR>$/;"	m
+ol	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+ol ol	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}$/;"	s
+ol ul	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}$/;"	s
+p	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
 pathogen#cycle_filetype	vim/autoload/pathogen.vim	/^function! pathogen#cycle_filetype() abort$/;"	f
 pathogen#execute	vim/autoload/pathogen.vim	/^function! pathogen#execute(...) abort$/;"	f
 pathogen#expand	vim/autoload/pathogen.vim	/^function! pathogen#expand(pattern, ...) abort$/;"	f
@@ -1685,6 +2126,8 @@ pathogen#slash	vim/autoload/pathogen.vim	/^function! pathogen#slash() abort$/;"	
 pathogen#split	vim/autoload/pathogen.vim	/^function! pathogen#split(path) abort$/;"	f
 pathogen#surround	vim/autoload/pathogen.vim	/^function! pathogen#surround(path) abort$/;"	f
 pathogen#uniq	vim/autoload/pathogen.vim	/^function! pathogen#uniq(list) abort$/;"	f
+pre	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+pre	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}$/;"	s
 rebar_file	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^rebar_file(Dir, normal) -> filename:join(Dir, "rebar.config");$/;"	f
 rebar_file	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^rebar_file(Dir, test)   -> filename:join(Dir, "rebar.test.config").$/;"	f
 rebar_opts	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^rebar_opts(RebarFile) ->$/;"	f
@@ -1736,6 +2179,7 @@ s:BufReadPostHook	vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:BufRea
 s:BufWinEnterHook	vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:BufWinEnterHook(fname) abort " {{{2$/;"	f
 s:BufWritePostHook	vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:BufWritePostHook(fname) abort " {{{2$/;"	f
 s:BuildPrompt	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:BuildPrompt(upd)$/;"	f
+s:CR	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! s:CR(normal, just_mrkr) "{{{$/;"	f
 s:CacheErrors	vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:CacheErrors(buf, checker_names) abort " {{{2$/;"	f
 s:CheckDefined	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^function! s:CheckDefined(colors)$/;"	f
 s:ClassSep	vim/bundle/syntastic/syntax_checkers/java/javac.vim	/^function! s:ClassSep() " {{{2$/;"	f
@@ -1987,6 +2431,7 @@ s:SolarizedOptions	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^functi
 s:SpecInputs	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SpecInputs(str)$/;"	f
 s:SplitClasspath	vim/bundle/syntastic/syntax_checkers/java/javac.vim	/^function! s:SplitClasspath(classpath) " {{{2$/;"	f
 s:SplitPattern	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SplitPattern(str)$/;"	f
+s:TAGS_METADATA_FILE_NAME	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^let s:TAGS_METADATA_FILE_NAME = '.tags'$/;"	v
 s:TidyEncOptByFenc	vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^function! s:TidyEncOptByFenc() " {{{2$/;"	f
 s:TidyEncOptByFenc	vim/bundle/syntastic/syntax_checkers/xhtml/tidy.vim	/^function! s:TidyEncOptByFenc()$/;"	f
 s:TogBG	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^function! s:TogBG()$/;"	f
@@ -2172,11 +2617,20 @@ s:active_cwd	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:active_c
 s:active_cwd_len	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:active_cwd_len = 0$/;"	v
 s:active_patterns	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:active_patterns = []$/;"	v
 s:active_winnr	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:active_winnr = -1$/;"	v
+s:add_checkbox	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:add_checkbox(line, rx_list) "{{{$/;"	f
 s:add_db	vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:add_db(db_file) abort$/;"	f
 s:add_section	vim/bundle/vim-airline/autoload/airline/extensions/default.vim	/^  function! s:add_section(builder, context, key)$/;"	f
+s:add_target_syntax_OFF	vim/bundle/vimwiki/syntax/vimwiki.vim	/^function! s:add_target_syntax_OFF(target) " {{{$/;"	f
+s:add_target_syntax_OFF	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^function! s:add_target_syntax_OFF(target, type) " {{{$/;"	f
+s:add_target_syntax_ON	vim/bundle/vimwiki/syntax/vimwiki.vim	/^function! s:add_target_syntax_ON(target, type) " {{{$/;"	f
+s:add_target_syntax_ON	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^function! s:add_target_syntax_ON(target, type) " {{{$/;"	f
 s:added_db_files	vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^let s:added_db_files = {}$/;"	v
 s:added_dbs	vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:added_dbs = []$/;"	v
 s:addtomrufs	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:addtomrufs(fname)$/;"	f
+s:adjust_items_recursively	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:adjust_items_recursively(parent) "{{{$/;"	f
+s:adjust_mrkr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:adjust_mrkr(item) "{{{$/;"	f
+s:adjust_numbered_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:adjust_numbered_list(item, ignore_kind, recursive) "{{{$/;"	f
+s:adjust_numbered_list_below	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:adjust_numbered_list_below(item, recursive) "{{{$/;"	f
 s:airline_initialized	vim/bundle/vim-airline/plugin/airline.vim	/^let s:airline_initialized = 0$/;"	v
 s:airline_refresh	vim/bundle/vim-airline/plugin/airline.vim	/^function! s:airline_refresh()$/;"	f
 s:airline_tagbar_last_lookup_time	vim/bundle/vim-airline/autoload/airline/extensions/tagbar.vim	/^let s:airline_tagbar_last_lookup_time = 0$/;"	v
@@ -2290,6 +2744,7 @@ s:bg3	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:bg3  = s:gb.light3$/;"	v
 s:bg4	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^  let s:bg4  = s:getGruvColor('GruvboxBg4')$/;"	v
 s:bg4	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:bg4  = s:gb.dark4$/;"	v
 s:bg4	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:bg4  = s:gb.light4$/;"	v
+s:binary_exists	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:binary_exists(fname) "{{{$/;"	f
 s:bins	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:bins = [$/;"	v
 s:blue	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let s:blue    = ['#268bd2',  '33']$/;"	v
 s:blue	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_light.vim	/^	let s:blue    = ['#268bd2',  '33']$/;"	v
@@ -2305,6 +2760,7 @@ s:blue	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:blue    
 s:bold	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:bold = ''$/;"	v
 s:bold	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:bold = 'bold,'$/;"	v
 s:bright	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:bright      = "* term=bold cterm=bold"$/;"	v
+s:bufGetLines	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:bufGetLines(bufnr)$/;"	f
 s:buf_min_count	vim/bundle/vim-airline/autoload/airline/extensions/tabline/autoshow.vim	/^let s:buf_min_count = get(g:, 'airline#extensions#tabline#buffer_min_count', 0)$/;"	v
 s:buf_modified_symbol	vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim	/^let s:buf_modified_symbol = g:airline_symbols.modified$/;"	v
 s:buf_nr_format	vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim	/^let s:buf_nr_format = get(g:, 'airline#extensions#tabline#buffer_nr_format', '%s: ')$/;"	v
@@ -2318,7 +2774,9 @@ s:bufnrfilpath	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:bufnrfilpath(line
 s:bufparts	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:bufparts(bufnr)$/;"	f
 s:buftab	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buftab(bufnr, md)$/;"	f
 s:bufwins	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:bufwins(bufnr)$/;"	f
+s:build_menu	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:build_menu(topmenu)$/;"	f
 s:build_sections	vim/bundle/vim-airline/autoload/airline/extensions/default.vim	/^function! s:build_sections(builder, context, keys)$/;"	f
+s:build_table_menu	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:build_table_menu(topmenu)$/;"	f
 s:builder	vim/bundle/vim-airline/t/builder.vim	/^    let s:builder = airline#builder#new({'active': 0})$/;"	v
 s:builder	vim/bundle/vim-airline/t/builder.vim	/^    let s:builder = airline#builder#new({'active': 1})$/;"	v
 s:builder	vim/bundle/vim-airline/t/extensions_default.vim	/^    let s:builder = airline#builder#new({'active': 1})$/;"	v
@@ -2329,8 +2787,10 @@ s:c_like_langs	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim
 s:cache_project_root	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:cache_project_root(path) abort$/;"	f
 s:cachefile	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:cachefile()$/;"	f
 s:ccex	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ccex = s:pref.'clear_cache_on_exit'$/;"	v
+s:cell_splitter	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:cell_splitter() "{{{$/;"	f
 s:chCwd	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chCwd(node)$/;"	f
 s:chRoot	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chRoot(node)$/;"	f
+s:change_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:change_level(from_line, to_line, direction, plus_children) "{{{$/;"	f
 s:changed_wildignore	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:changed_wildignore = 0$/;"	v
 s:changelist	vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:changelist(bufnr)$/;"	f
 s:check_defined	vim/bundle/vim-airline/autoload/airline/init.vim	/^function! s:check_defined(variable, default)$/;"	f
@@ -2343,11 +2803,23 @@ s:checkbuf	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:checkbuf()$/;"	f
 s:chknearby	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:chknearby(pat)$/;"	f
 s:choices	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:choices(str, choices, func, args)$/;"	f
 s:chop	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:chop(mrufs)$/;"	f
+s:cleanUp	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:cleanUp()$/;"	f
+s:clean_url	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:clean_url(url) " {{{$/;"	f
 s:clear	vim/bundle/vim-airline/t/init.vim	/^function! s:clear()$/;"	f
+s:clone_marker_from_to	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:clone_marker_from_to(from, to) "{{{$/;"	f
 s:closeChildren	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeChildren(node)$/;"	f
 s:closeCurrentDir	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeCurrentDir(node)$/;"	f
 s:closeTreeWindow	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeTreeWindow()$/;"	f
 s:close_symbol	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^let s:close_symbol = get(g:, 'airline#extensions#tabline#close_symbol', 'X')$/;"	v
+s:close_tag_def_list	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_def_list(deflist, ldest) "{{{$/;"	f
+s:close_tag_list	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_list(lists, ldest) "{{{$/;"	f
+s:close_tag_math	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_math(math, ldest) "{{{$/;"	f
+s:close_tag_para	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_para(para, ldest) "{{{$/;"	f
+s:close_tag_pre	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_pre(pre, ldest) "{{{$/;"	f
+s:close_tag_quote	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_quote(quote, ldest) "{{{$/;"	f
+s:close_tag_row	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:close_tag_row(row, header, ldest, header_ids) "{{{$/;"	f
+s:close_tag_table	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:close_tag_table(table, ldest, header_ids) "{{{$/;"	f
+s:col_count	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:col_count(lnum) "{{{$/;"	f
 s:color_column	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:color_column = get(s:gb, g:gruvbox_color_column)$/;"	v
 s:color_column	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:color_column = s:bg1$/;"	v
 s:color_template	vim/bundle/vim-airline/autoload/airline/extensions/ctrlp.vim	/^let s:color_template = get(g:, 'airline#extensions#ctrlp#color_template', 'insert')$/;"	v
@@ -2363,13 +2835,26 @@ s:compmref	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmref(...)$/;"	f
 s:comptime	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comptime(...)$/;"	f
 s:compval	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compval(...)$/;"	f
 s:compval	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:compval(...)$/;"	f
+s:conceal	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:conceal = exists("+conceallevel") ? ' conceal' : ''$/;"	v
 s:contexts	vim/bundle/vim-airline/autoload/airline.vim	/^let s:contexts = {}$/;"	v
+s:convert_file	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:convert_file(path_html, wikifile) "{{{$/;"	f
 s:core_funcrefs	vim/bundle/vim-airline/autoload/airline.vim	/^let s:core_funcrefs = [$/;"	v
 s:coretype_names	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:coretype_names = {$/;"	v
 s:coretypes	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:coretypes = map(copy(g:ctrlp_types), '[s:coretype_names[v:val], v:val]')$/;"	v
 s:count	vim/bundle/vim-airline/autoload/airline/extensions/ale.vim	/^function! s:count(index)$/;"	f
+s:count_separators_down	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:count_separators_down(lnum) "{{{$/;"	f
+s:count_separators_up	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:count_separators_up(lnum) "{{{$/;"	f
+s:cr_on_empty_line	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:cr_on_empty_line(lnum, behavior) "{{{$/;"	f
+s:cr_on_empty_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:cr_on_empty_list_item(lnum, behavior) "{{{$/;"	f
+s:cr_on_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:cr_on_list_item(lnum, insert_new_marker, not_at_eol) "{{{$/;"	f
 s:create	vim/bundle/vim-airline/autoload/airline/section.vim	/^function! s:create(parts, append)$/;"	f
+s:create_cb	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:create_cb(item) "{{{$/;"	f
+s:create_default_CSS	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:create_default_CSS(path) " {{{$/;"	f
+s:create_empty_row	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:create_empty_row(cols) "{{{$/;"	f
+s:create_marker	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:create_marker(lnum) "{{{$/;"	f
+s:create_row_sep	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:create_row_sep(cols) "{{{$/;"	f
 s:ctrlspace	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^let s:ctrlspace = get(g:, 'CtrlSpaceLoaded', 0)$/;"	v
+s:cur_column	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:cur_column() "{{{$/;"	f
 s:current_bufnr	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^let s:current_bufnr = -1$/;"	v
 s:current_bufnr	vim/bundle/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim	/^let s:current_bufnr = -1$/;"	v
 s:current_bufnr	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^let s:current_bufnr = -1$/;"	v
@@ -2389,6 +2874,9 @@ s:cyan	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:cyan    
 s:cyan	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:cyan        = "37"$/;"	v
 s:cyan	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:cyan        = "6"$/;"	v
 s:cyan	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:cyan        = "DarkCyan"      " 6$/;"	v
+s:decrease_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:decrease_level(item) "{{{$/;"	f
+s:default	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:default(varname, value) "{{{$/;"	f
+s:default_CSS_full_name	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:default_CSS_full_name(path) " {{{$/;"	f
 s:default_checks	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:default_checks = ['indent', 'trailing', 'mixed-indent-file']$/;"	v
 s:default_includes	vim/bundle/syntastic/autoload/syntastic/c.vim	/^let s:default_includes = [$/;"	v
 s:defaults_list	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:defaults_list=[$/;"	v
@@ -2396,6 +2884,10 @@ s:delbuf	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delbuf()$/;"	f
 s:delbufcond	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delbufcond(bufnr)$/;"	f
 s:delent	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delent(rfunc)$/;"	f
 s:deleteBookmark	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:deleteBookmark(bm)$/;"	f
+s:delete_html_files	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:delete_html_files(path) "{{{$/;"	f
+s:diary_date_link	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:diary_date_link(...) "{{{$/;"	f
+s:diary_index	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:diary_index(...) "{{{$/;"	f
+s:diary_path	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:diary_path(...) "{{{$/;"	f
 s:dict2list	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:dict2list(dict)$/;"	f
 s:dictindex	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dictindex(dict, expr)$/;"	f
 s:dirArrows	vim/bundle/nerdtree/syntax/nerdtree.vim	/^let s:dirArrows = escape(g:NERDTreeDirArrowCollapsible, '~]\\-').escape(g:NERDTreeDirArrowExpand/;"	v
@@ -2407,6 +2899,9 @@ s:dohighlight	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dohighlight()$/;"	
 s:done_bundles	vim/autoload/pathogen.vim	/^let s:done_bundles = {}$/;"	v
 s:dosigns	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dosigns()$/;"	f
 s:elapsed	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:elapsed(nr)$/;"	f
+s:ell_len	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let s:ell_len = strlen(s:ellipsis)$/;"	v
+s:ellipsis	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let s:ellipsis = (&enc ==? 'utf-8') ? "\\u2026" : "..."$/;"	v
+s:empty_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:empty_item() "{{{$/;"	f
 s:enabled	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:enabled = get(g:, 'airline#extensions#whitespace#enabled', 1)$/;"	v
 s:error_symbol	vim/bundle/vim-airline/autoload/airline/extensions/ale.vim	/^let s:error_symbol = get(g:, 'airline#extensions#ale#error_symbol', 'E:')$/;"	v
 s:error_symbol	vim/bundle/vim-airline/autoload/airline/extensions/neomake.vim	/^let s:error_symbol = get(g:, 'airline#extensions#neomake#error_symbol', 'E:')$/;"	v
@@ -2417,6 +2912,7 @@ s:exec_separator	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^funct
 s:execextvar	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:execextvar(key)$/;"	f
 s:exectags	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectags(cmd)$/;"	f
 s:exectagsonfile	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectagsonfile(fname, ftype)$/;"	f
+s:existing_mkd_refs	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^function! s:existing_mkd_refs() "{{{$/;"	f
 s:ext	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:ext = {}$/;"	v
 s:ext	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:ext._theme_funcrefs = []$/;"	v
 s:ext.add_inactive_statusline_func	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^function! s:ext.add_inactive_statusline_func(name) dict$/;"	f
@@ -2443,22 +2939,30 @@ s:fg_pdef	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:fg_pdef =
 s:fg_phead	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:fg_phead = s:fg_orange$/;"	v
 s:fg_ptable	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:fg_ptable = s:fg_blue$/;"	v
 s:ficounts	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ficounts = {}$/;"	v
+s:file_exists	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:file_exists(fname) "{{{$/;"	f
 s:filecounts	vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^let s:filecounts = {}$/;"	v
 s:filetype_overrides	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:filetype_overrides = {$/;"	v
 s:filetype_regex_overrides	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:filetype_regex_overrides = {}$/;"	v
 s:filter	vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:filter(tags)$/;"	f
 s:findAndRevealPath	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:findAndRevealPath()$/;"	f
+s:find_autoload_file	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:find_autoload_file(name) " {{{$/;"	f
 s:findcommon	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findcommon(items, seed)$/;"	f
 s:findcount	vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:findcount(str, tgaddr)$/;"	f
 s:findroot	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findroot(curr, mark, depth, type)$/;"	f
+s:first_char	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:first_char(string) "{{{$/;"	f
 s:first_sign_id	vim/bundle/syntastic/plugin/syntastic/signs.vim	/^let s:first_sign_id = 5000$/;"	v
 s:flags	vim/bundle/vim-airline/autoload/airline/extensions/tagbar.vim	/^let s:flags = get(g:, 'airline#extensions#tagbar#flags', '')$/;"	v
 s:flatten	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:flatten(tree, cur)$/;"	f
+s:fmt_cell	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:fmt_cell(cell, max_len) "{{{$/;"	f
+s:fmt_cell_sep	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:fmt_cell_sep(max_len) "{{{$/;"	f
+s:fmt_row	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:fmt_row(cells, max_lens, col1, col2) "{{{$/;"	f
+s:fmt_sep	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:fmt_sep(max_lens, col1, col2) "{{{$/;"	f
 s:fnamecollapse	vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim	/^let s:fnamecollapse = get(g:, 'airline#extensions#tabline#fnamecollapse', 1)$/;"	v
 s:fnametruncate	vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim	/^let s:fnametruncate = get(g:, 'airline#extensions#tabline#fnametruncate', 0)$/;"	v
 s:fnesc	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:fnesc(...)$/;"	f
 s:format	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:format(...)$/;"	f
 s:format	vim/bundle/vim-airline/autoload/airline/extensions/wordcount.vim	/^let s:format = get(g:, 'airline#extensions#wordcount#format', '%d words')$/;"	v
+s:format_diary	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:format_diary() "{{{$/;"	f
 s:format_name	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^  function! s:format_name(name)$/;"	f
 s:formatline	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:formatline(str)$/;"	f
 s:formatter	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^let s:formatter = get(g:, 'airline#extensions#tabline#formatter', 'default')$/;"	v
@@ -2525,20 +3029,52 @@ s:gb	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:gb.purple = s:purple$/;"	v
 s:gb	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:gb.red    = s:red$/;"	v
 s:gb	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:gb.yellow = s:yellow$/;"	v
 s:getGruvColor	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^function! s:getGruvColor(group)$/;"	f
+s:get_a_neighbor_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_a_neighbor_item(item) "{{{$/;"	f
+s:get_a_neighbor_item_in_column	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_a_neighbor_item_in_column(lnum, column) "{{{$/;"	f
 s:get_accented_line	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function! s:get_accented_line(self, group, contents)$/;"	f
 s:get_airline_themes	vim/bundle/vim-airline/plugin/airline.vim	/^function! s:get_airline_themes(a, l, p)$/;"	f
+s:get_aligned_rows	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:get_aligned_rows(lnum, col1, col2) "{{{$/;"	f
+s:get_any_item_of_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_any_item_of_level(cur_ln, cur_lvl, org_lvl) "{{{$/;"	f
 s:get_array	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^function! s:get_array(fg, bg, opts)$/;"	f
+s:get_cell_max_lens	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:get_cell_max_lens(lnum, ...) "{{{$/;"	f
+s:get_corresponding_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_corresponding_item(lnum) "{{{$/;"	f
 s:get_ctags_executable	vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:get_ctags_executable(proj_dir) abort$/;"	f
+s:get_date_link	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:get_date_link(fmt) "{{{$/;"	f
 s:get_decimal_group	vim/bundle/vim-airline/autoload/airline/extensions/wordcount/formatters/default.vim	/^function! s:get_decimal_group()$/;"	f
+s:get_diary_files	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^fun! s:get_diary_files() "{{{$/;"	f
+s:get_first_child	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_first_child(item) "{{{$/;"	f
+s:get_first_item_in_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_first_item_in_list(item, ignore_kind) "{{{$/;"	f
+s:get_html_template	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:get_html_template(template) "{{{$/;"	f
 s:get_hunks	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:get_hunks()$/;"	f
 s:get_hunks_changes	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:get_hunks_changes()$/;"	f
 s:get_hunks_empty	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:get_hunks_empty()$/;"	f
 s:get_hunks_gitgutter	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:get_hunks_gitgutter()$/;"	f
 s:get_hunks_signify	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:get_hunks_signify()$/;"	f
+s:get_idx_list_markers	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_idx_list_markers(item) "{{{$/;"	f
+s:get_indent	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:get_indent(lnum) "{{{$/;"	f
+s:get_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_item(lnum) "{{{$/;"	f
+s:get_item_of_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_item_of_level(cur_ln, cur_lvl, org_lvl, org_regex) "{{{$/;"	f
+s:get_last_item_in_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_last_item_in_list(item, ignore_kind) "{{{$/;"	f
+s:get_last_line_of_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_last_line_of_item(item) "{{{$/;"	f
+s:get_last_line_of_item_incl_children	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_last_line_of_item_incl_children(item) "{{{$/;"	f
+s:get_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_level(lnum) "{{{$/;"	f
+s:get_links	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:get_links(wikifile, idx) "{{{$/;"	f
+s:get_month_name	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^fun! s:get_month_name(month) "{{{$/;"	f
 s:get_mq_async	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^  function! s:get_mq_async(cmd, file)$/;"	f
 s:get_msgfmt_stat_async	vim/bundle/vim-airline/autoload/airline/extensions/po.vim	/^  function! s:get_msgfmt_stat_async(cmd, file)$/;"	f
+s:get_next_child_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_next_child_item(parent, child) "{{{$/;"	f
+s:get_next_line	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_next_line(lnum, ...) "{{{$/;"	f
+s:get_next_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_next_list_item(item, ignore_kind) "{{{$/;"	f
+s:get_next_mrkr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_next_mrkr(item) "{{{$/;"	f
+s:get_parent	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_parent(item) "{{{$/;"	f
+s:get_position_links	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:get_position_links(link) "{{{$/;"	f
 s:get_prev_group	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function! s:get_prev_group(sections, i)$/;"	f
+s:get_prev_line	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_prev_line(lnum) "{{{$/;"	f
+s:get_prev_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_prev_list_item(item, ignore_kind) "{{{$/;"	f
+s:get_prev_mrkr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_prev_mrkr(item) "{{{$/;"	f
 s:get_project_patterns	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^function! s:get_project_patterns(root_dir) abort$/;"	f
+s:get_rate	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:get_rate(item) "{{{$/;"	f
+s:get_rows	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:get_rows(lnum) "{{{$/;"	f
 s:get_section	vim/bundle/vim-airline/autoload/airline/extensions/default.vim	/^function! s:get_section(winnr, key, ...)$/;"	f
 s:get_seperator	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function! s:get_seperator(self, prev_group, group, side)$/;"	f
 s:get_syn	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^function! s:get_syn(group, what)$/;"	f
@@ -2547,6 +3083,8 @@ s:get_transitioned_seperator	vim/bundle/vim-airline/autoload/airline/builder.vim
 s:get_unix_cmd	vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:get_unix_cmd(for_job, proj_options, db_path) abort$/;"	f
 s:get_vcs_untracked_async	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^  function! s:get_vcs_untracked_async(config, file)$/;"	f
 s:get_visible_buffers	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^function! s:get_visible_buffers()$/;"	f
+s:get_wiki_buffers	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:get_wiki_buffers() "{{{$/;"	f
+s:get_wikifile_url	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:get_wikifile_url(wikifile) "{{{$/;"	f
 s:get_win32_cmd	vim/bundle/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:get_win32_cmd(for_job, proj_options, db_path) abort$/;"	f
 s:getbookmarks	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getbookmarks()$/;"	f
 s:getenv	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getenv()$/;"	f
@@ -2577,9 +3115,12 @@ s:green	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:green  
 s:green	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:green       = "2"$/;"	v
 s:green	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:green       = "64"$/;"	v
 s:green	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:green       = "DarkGreen"     " 2$/;"	v
+s:group_links	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^fun! s:group_links(links) "{{{$/;"	f
+s:guess_kind_of_numbered_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:guess_kind_of_numbered_item(item) "{{{$/;"	f
 s:gui2cui	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^function! s:gui2cui(rgb, fallback)$/;"	f
 s:handleLeftClick	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleLeftClick()$/;"	f
 s:handleMiddleMouse	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleMiddleMouse()$/;"	f
+s:has_abs_path	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:has_abs_path(fname) "{{{$/;"	f
 s:has_async	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^let s:has_async = airline#util#async$/;"	v
 s:has_async	vim/bundle/vim-airline/autoload/airline/extensions/po.vim	/^let s:has_async = airline#util#async$/;"	v
 s:has_conceal	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:has_conceal = has('conceal')$/;"	v
@@ -2591,9 +3132,13 @@ s:has_vcscommand	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/
 s:head_format	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^let s:head_format = get(g:, 'airline#extensions#branch#format', 0)$/;"	v
 s:headntail	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:headntail(str)$/;"	f
 s:highlight	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:highlight(pat, grp)$/;"	f
+s:highlight_existing_links	vim/bundle/vimwiki/syntax/vimwiki.vim	/^function! s:highlight_existing_links() "{{{$/;"	f
+s:highlight_existing_links	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^function! s:highlight_existing_links() "{{{$/;"	f
 s:hlgrps	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:hlgrps = {$/;"	v
 s:hls_cursor	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:hls_cursor = get(s:gb, g:gruvbox_hls_cursor)$/;"	v
 s:hls_cursor	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:hls_cursor = s:orange$/;"	v
+s:html_insert_contents	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:html_insert_contents(html_lines, content) "{{{$/;"	f
+s:html_tags	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let s:html_tags = join(split(g:vimwiki_valid_html_tags, '\\s*,\\s*'), '\\|')$/;"	v
 s:hunk_symbols	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^let s:hunk_symbols = get(g:, 'airline#extensions#hunks#hunk_symbols', ['+', '~', '-'])$/;"	v
 s:i	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:i           = ""$/;"	v
 s:i	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:i           = ",italic"$/;"	v
@@ -2613,8 +3158,17 @@ s:ignore_bufadd_pat	vim/bundle/vim-airline/autoload/airline/extensions/tabline.v
 s:imports	vim/bundle/syntastic/syntax_checkers/sass/sass.vim	/^    let s:imports = '--compass'$/;"	v
 s:imports	vim/bundle/syntastic/syntax_checkers/sass/sass.vim	/^let s:imports = ''$/;"	v
 s:inactive_funcrefs	vim/bundle/vim-airline/autoload/airline.vim	/^let s:inactive_funcrefs = []$/;"	v
+s:increase_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increase_level(item) "{{{$/;"	f
+s:increment_1	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increment_1(value) "{{{$/;"	f
+s:increment_A	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increment_A(value) "{{{$/;"	f
+s:increment_I	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increment_I(value) "{{{$/;"	f
+s:increment_a	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increment_a(value) "{{{$/;"	f
+s:increment_i	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:increment_i(value) "{{{$/;"	f
 s:indent_algo	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:indent_algo = get(g:, 'airline#extensions#whitespace#mixed_indent_algo', 0)$/;"	v
+s:indent_line_by	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:indent_line_by(lnum, indent_by) "{{{$/;"	f
+s:indent_multiline	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:indent_multiline(prev_item, lnum) "{{{$/;"	f
 s:init	vim/bundle/vim-airline/plugin/airline.vim	/^function! s:init()$/;"	f
+s:initDict	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:initDict()$/;"	f
 s:initVariable	vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
 s:init_buffer	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:init_buffer()$/;"	f
 s:insertcache	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:insertcache(str)$/;"	f
@@ -2630,7 +3184,16 @@ s:invert_tabline	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:invert_tabline = 
 s:invoke_funcrefs	vim/bundle/vim-airline/autoload/airline.vim	/^function! s:invoke_funcrefs(context, funcrefs)$/;"	f
 s:is_branch_empty	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:is_branch_empty()$/;"	f
 s:is_dark	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:is_dark=(&background == 'dark')$/;"	v
+s:is_diary_file	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:is_diary_file(filename) " {{{$/;"	f
 s:is_excluded_window	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^function! s:is_excluded_window()$/;"	f
+s:is_first_column	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:is_first_column(lnum, cnum) "{{{$/;"	f
+s:is_html_uptodate	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:is_html_uptodate(wikifile) "{{{$/;"	f
+s:is_img_link	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:is_img_link(lnk) "{{{$/;"	f
+s:is_last_column	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:is_last_column(lnum, cnum) "{{{$/;"	f
+s:is_separator	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:is_separator(line) "{{{$/;"	f
+s:is_separator_tail	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:is_separator_tail(line) "{{{$/;"	f
+s:is_table	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:is_table(line) "{{{$/;"	f
+s:is_web_link	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:is_web_link(lnk) "{{{$/;"	f
 s:is_win32term	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^let s:is_win32term = (has('win32') || has('win64')) && !has('gui_running') && (empty($CONEMUBUIL/;"	v
 s:isabs	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:isabs(path)$/;"	f
 s:iscmdwin	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:iscmdwin()$/;"	f
@@ -2653,22 +3216,35 @@ s:jumpToParent	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:j
 s:jumpToPrevSibling	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToPrevSibling(node)$/;"	f
 s:jumpToRoot	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToRoot()$/;"	f
 s:jumpToSibling	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToSibling(currentNode, forward)$/;"	f
+s:jump_to_anchor	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:jump_to_anchor(anchor) "{{{$/;"	f
 s:jump_to_tab	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^function! s:jump_to_tab(offset)$/;"	f
+s:kbd_create_new_row	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:kbd_create_new_row(cols, goto_first) "{{{$/;"	f
+s:kbd_goto_next_col	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:kbd_goto_next_col(jumpdown) "{{{$/;"	f
+s:kbd_goto_next_row	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:kbd_goto_next_row() "{{{$/;"	f
+s:kbd_goto_prev_col	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:kbd_goto_prev_col(jumpup) "{{{$/;"	f
+s:kbd_goto_prev_row	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:kbd_goto_prev_row() "{{{$/;"	f
+s:killDaemon	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:killDaemon()$/;"	f
 s:known_files	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:known_files = []$/;"	v
 s:known_projects	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:known_projects = {}$/;"	v
 s:kprange	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:kprange = {$/;"	v
+s:l_O	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  let s:l_O = matchstr(&langmap, '\\C,\\zs.\\zeO,')$/;"	v
+s:l_o	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  let s:l_o = matchstr(&langmap, '\\C,\\zs.\\zeo,')$/;"	v
 s:lash	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lash(...)$/;"	f
 s:lash	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! s:lash(...)$/;"	f
 s:lastvisual	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lastvisual()$/;"	f
 s:layout	vim/bundle/vim-airline/autoload/airline/extensions/default.vim	/^let s:layout = get(g:, 'airline#extensions#default#layout', [$/;"	v
 s:lazycat_list	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:lazycat_list=[$/;"	v
 s:leavepre	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:leavepre()$/;"	f
+s:line_has_marker	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:line_has_marker(lnum) "{{{$/;"	f
 s:lineout	vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:lineout(dict)$/;"	f
+s:linux_handler	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^  function! s:linux_handler(url)$/;"	f
 s:load_project_patterns	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^function! s:load_project_patterns(root_dir) abort$/;"	f
+s:load_tags_metadata	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:load_tags_metadata() abort "{{{$/;"	f
 s:loaded	vim/bundle/vim-airline/autoload/airline/init.vim	/^let s:loaded = 0$/;"	v
 s:log	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:log(m)$/;"	f
 s:long_format	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:long_format = get(g:, 'airline#extensions#whitespace#long_format', '[%s]long')$/;"	v
 s:lsCmd	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lsCmd()$/;"	f
+s:macunix_handler	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^  function! s:macunix_handler(url)$/;"	f
 s:magenta	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let s:magenta = ['#d33682', '125']$/;"	v
 s:magenta	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_light.vim	/^	let s:magenta = ['#d33682', '125']$/;"	v
 s:magenta	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:magenta     = "#af005f"$/;"	v
@@ -2676,6 +3252,7 @@ s:magenta	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:magen
 s:magenta	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:magenta     = "125"$/;"	v
 s:magenta	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:magenta     = "5"$/;"	v
 s:magenta	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:magenta     = "DarkMagenta"   " 5$/;"	v
+s:make_tag	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:make_tag(line, regexp, func, ...) "{{{$/;"	f
 s:manual_update_tags	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(bang) abort$/;"	f
 s:map_keys	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^function! s:map_keys()$/;"	f
 s:match_window_opts	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:match_window_opts()$/;"	f
@@ -2689,8 +3266,10 @@ s:max_lines	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^
 s:maxf	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:maxf(len)$/;"	f
 s:maybe_in_progress	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:maybe_in_progress[module] = {}$/;"	v
 s:maybe_in_progress	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:maybe_in_progress = {}$/;"	v
+s:merge_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:merge_tags(metadata, pagename, file_metadata) "{{{$/;"	f
 s:mergelists	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:mergelists()$/;"	f
 s:mfunc	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mfunc()$/;"	f
+s:mid	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:mid(value, cnt) "{{{$/;"	f
 s:mixed_indent_file_format	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:mixed_indent_file_format = get(g:, 'airline#extensions#whitespace#mixed_indent_file_format/;"	v
 s:mixed_indent_format	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:mixed_indent_format = get(g:, 'airline#extensions#whitespace#mixed_indent_format', '[%s]mi/;"	v
 s:mixedsort	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mixedsort(...)$/;"	f
@@ -2702,9 +3281,13 @@ s:mruf_map_string	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^let s:mruf_
 s:msg	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:msg(name, cwd)$/;"	f
 s:mtype	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mtype()$/;"	f
 s:multipliers	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:multipliers(...)$/;"	f
+s:myBufNr	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:myBufNr()$/;"	f
 s:n	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:n               = "NONE"$/;"	v
 s:narrowable	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:narrowable()$/;"	f
+s:nested	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let s:nested = extend(s:nested, vimwiki#base#detect_nested_syntax(), "keep")$/;"	v
+s:nested	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:nested = VimwikiGet('nested_syntaxes')$/;"	v
 s:newcache	vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! s:newcache(cwd)$/;"	f
+s:newline	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let s:newline = (&enc ==? 'utf-8') ? "\\u21b2 " : "  "$/;"	v
 s:next_sign_id	vim/bundle/syntastic/plugin/syntastic/signs.vim	/^let s:next_sign_id = s:first_sign_id$/;"	v
 s:nocache	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nocache(...)$/;"	f
 s:nocache	vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:nocache()$/;"	f
@@ -2713,6 +3296,12 @@ s:node_file	vim/bundle/syntastic/syntax_checkers/less/lessc.vim	/^let s:node_fil
 s:non_zero_only	vim/bundle/vim-airline/autoload/airline/extensions/hunks.vim	/^let s:non_zero_only = get(g:, 'airline#extensions#hunks#non_zero_only', 0)$/;"	v
 s:none	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:none = ['NONE', 'NONE']$/;"	v
 s:none	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:none            = "NONE"$/;"	v
+s:normalize_link_in_diary	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:normalize_link_in_diary(lnk) " {{{$/;"	f
+s:normalize_link_syntax_n	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:normalize_link_syntax_n() " {{{$/;"	f
+s:normalize_link_syntax_n	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! s:normalize_link_syntax_n() " {{{$/;"	f
+s:normalize_link_syntax_v	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:normalize_link_syntax_v() " {{{$/;"	f
+s:normalize_link_syntax_v	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! s:normalize_link_syntax_v() " {{{$/;"	f
+s:normalize_path	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:normalize_path(path) "{{{$/;"	f
 s:nosort	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosort()$/;"	f
 s:nosplit	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosplit()$/;"	f
 s:notifiers	vim/bundle/syntastic/plugin/syntastic.vim	/^let s:notifiers = g:SyntasticNotifiers.Instance()$/;"	v
@@ -2723,6 +3312,7 @@ s:number_map	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.
 s:ob	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:ob              = ""$/;"	v
 s:offset	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:offset(lines, height)$/;"	f
 s:old_cpo	vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:old_cpo	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:old_cpo = &cpo$/;"	v
 s:on_colorscheme_changed	vim/bundle/vim-airline/plugin/airline.vim	/^function! s:on_colorscheme_changed()$/;"	f
 s:on_exit	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^  function! s:on_exit(channel) dict abort$/;"	f
 s:on_exit	vim/bundle/vim-airline/autoload/airline/extensions/po.vim	/^  function! s:on_exit(channel) dict abort$/;"	f
@@ -2737,8 +3327,12 @@ s:openInNewTab	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:o
 s:openInNewTabSilent	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTabSilent(target)$/;"	f
 s:openNodeRecursively	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openNodeRecursively(node)$/;"	f
 s:openVSplit	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplit(target)$/;"	f
+s:open_wiki_buffer	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:open_wiki_buffer(item) "{{{$/;"	f
 s:openfile	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:openfile(cmd, fid, tail, chkmod, ...)$/;"	f
 s:opt_x	vim/bundle/syntastic/syntax_checkers/c/avrgcc.vim	/^let s:opt_x = { 'c': 'c', 'cpp': 'c++' }$/;"	v
+s:options	vim/bundle/vimwiki/syntax/vimwiki.vim	/^  let s:options .= s:conceal$/;"	v
+s:options	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:options = ' contained transparent contains=NONE'$/;"	v
+s:options	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:options = ' contained transparent contains=NONE'$/;"	v
 s:options_list	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:options_list=[$/;"	v
 s:opts	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:opts(...)$/;"	f
 s:orange	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let s:orange  = ['#cb4b16', '166']$/;"	v
@@ -2809,18 +3403,39 @@ s:p	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^  let s:p.vi
 s:p	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^  let s:p.visual.middle = [ [ s:fg4, s:bg1 ] ]$/;"	v
 s:p	vim/bundle/gruvbox/autoload/lightline/colorscheme/gruvbox.vim	/^  let s:p.visual.right = [ [ s:bg0, s:orange ], [ s:bg0, s:bg4 ] ]$/;"	v
 s:padding	vim/bundle/vim-airline/autoload/airline/extensions/ctrlspace.vim	/^let s:padding = s:spc . s:spc . s:spc$/;"	v
+s:parse_line	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:parse_line(line, state) " {{{$/;"	f
 s:parseline	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:parseline(line)$/;"	f
 s:parts	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:parts(str)$/;"	f
 s:parts	vim/bundle/vim-airline/autoload/airline/parts.vim	/^let s:parts = {}$/;"	v
+s:path_html	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:path_html(idx) "{{{$/;"	f
 s:pathshorten	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:pathshorten(str)$/;"	f
+s:popBuffer	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:popBuffer(bufnr)$/;"	f
+s:popMarkdown	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:popMarkdown()$/;"	f
+s:prefix_zero	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:prefix_zero(num) "{{{$/;"	f
 s:prev_wildignore	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:prev_wildignore = ''$/;"	v
+s:previewMarkdown	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:previewMarkdown()$/;"	f
 s:previewNodeCurrent	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeCurrent(node)$/;"	f
 s:previewNodeHSplit	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeHSplit(node)$/;"	f
 s:previewNodeVSplit	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeVSplit(node)$/;"	f
+s:print_wiki_list	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:print_wiki_list() "{{{$/;"	f
 s:process	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:process(entries, type)$/;"	f
 s:process	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:process(fname, ftype)$/;"	f
 s:process	vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:process(clines, ...)$/;"	f
+s:process_inline_tags	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_inline_tags(line, header_ids) "{{{$/;"	f
 s:process_options_file	vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:process_options_file(proj_dir, path) abort$/;"	f
+s:process_tag_def_list	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_def_list(line, deflist) "{{{$/;"	f
+s:process_tag_h	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_h(line, id) "{{{$/;"	f
+s:process_tag_hr	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_hr(line) "{{{$/;"	f
+s:process_tag_list	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_list(line, lists) "{{{$/;"	f
+s:process_tag_math	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_math(line, math) "{{{$/;"	f
+s:process_tag_para	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_para(line, para) "{{{$/;"	f
+s:process_tag_pre	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_pre(line, pre) "{{{$/;"	f
+s:process_tag_quote	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_quote(line, quote) "{{{$/;"	f
+s:process_tag_table	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tag_table(line, table, header_ids) "{{{$/;"	f
+s:process_tags_links	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tags_links(line) " {{{$/;"	f
+s:process_tags_remove_links	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tags_remove_links(line) " {{{$/;"	f
+s:process_tags_typefaces	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_tags_typefaces(line, header_ids) "{{{$/;"	f
+s:process_title	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:process_title(placeholders, default_title) "{{{$/;"	f
 s:proj_cache	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^let s:proj_cache = {}$/;"	v
 s:promptToDelBuffer	vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
 s:promptToRenameBuffer	vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToRenameBuffer(bufnum, msg, newFileName)$/;"	f
@@ -2834,10 +3449,14 @@ s:prototype.split	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function
 s:purple	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:purple = s:gb.bright_purple$/;"	v
 s:purple	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:purple = s:gb.faded_purple$/;"	v
 s:purple	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:purple[1] = 13$/;"	v
+s:pushBuffer	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:pushBuffer(bufnr)$/;"	f
+s:pushMarkdown	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:pushMarkdown()$/;"	f
 s:pylint_new	vim/bundle/syntastic/syntax_checkers/python/pylint.vim	/^let s:pylint_new = -1$/;"	v
 s:quiet_warnings	vim/bundle/syntastic/plugin/syntastic.vim	/^            let s:quiet_warnings = [s:quiet_warnings]$/;"	v
 s:quiet_warnings	vim/bundle/syntastic/plugin/syntastic.vim	/^        let s:quiet_warnings = get(g:syntastic_quiet_messages, 'type', [])$/;"	v
 s:r	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:r               = ",reverse"$/;"	v
+s:rate_to_state	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:rate_to_state(rate) "{{{$/;"	f
+s:read_captions	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^fun! s:read_captions(files) "{{{$/;"	f
 s:record	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:record(bufnr)$/;"	f
 s:red	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let s:red     = ['#dc322f', '124']$/;"	v
 s:red	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_light.vim	/^	let s:red     = ['#dc322f', '124']$/;"	v
@@ -2852,16 +3471,40 @@ s:red	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:red      
 s:reformat	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:reformat(mrufs, ...)$/;"	f
 s:refreshCurrent	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshCurrent(node)$/;"	f
 s:refreshRoot	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshRoot()$/;"	f
+s:refreshView	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:refreshView()$/;"	f
 s:regexfilter	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regexfilter(str)$/;"	f
+s:regexp_of_marker	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:regexp_of_marker(item) "{{{$/;"	f
 s:regisfilter	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regisfilter(reg)$/;"	f
 s:registry	vim/bundle/syntastic/plugin/syntastic.vim	/^let s:registry = g:SyntasticRegistry.Instance()$/;"	v
 s:remarksigns	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:remarksigns()$/;"	f
+s:remove_blank_lines	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:remove_blank_lines(lines) " {{{$/;"	f
+s:remove_cb	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:remove_cb(item) "{{{$/;"	f
+s:remove_mrkr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:remove_mrkr(item) "{{{$/;"	f
+s:remove_page_from_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:remove_page_from_tags(metadata, page_name) "{{{$/;"	f
 s:reset_untracked_cache	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:reset_untracked_cache(shellcmdpost)$/;"	f
 s:reuseWin	vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! s:reuseWin(dir) abort$/;"	f
+s:root_path	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:root_path(subdir) "{{{$/;"	f
 s:rst2pseudoxml	vim/bundle/syntastic/syntax_checkers/rst/rst2pseudoxml.vim	/^let s:rst2pseudoxml = (executable('rst2pseudoxml.py') && !syntastic#util#isRunningWindows()) ? '/;"	v
 s:runner_exe	vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:runner_exe = gutentags#get_plat_file('update_scopedb')$/;"	v
 s:runner_exe	vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:runner_exe = gutentags#get_plat_file('update_tags')$/;"	v
+s:rxSchemes	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:rxSchemes = '\\%('.$/;"	v
+s:rxSchemes	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rxSchemes = '\\%('.$/;"	v
+s:rxSchemes	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rxSchemes = '\\%('.$/;"	v
+s:rxSep	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:rxSep() "{{{$/;"	f
+s:rx_wikilink_md_prefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rx_wikilink_md_prefix = g:vimwiki_rxWikiLink1InvalidPrefix.$/;"	v
+s:rx_wikilink_md_prefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rx_wikilink_md_prefix = vimwiki#u#escape(s:wikilink_md_prefix)$/;"	v
+s:rx_wikilink_md_separator	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rx_wikilink_md_separator = vimwiki#u#escape(s:wikilink_md_separator)$/;"	v
+s:rx_wikilink_md_suffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rx_wikilink_md_suffix = s:rx_wikilink_md_suffix.$/;"	v
+s:rx_wikilink_md_suffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:rx_wikilink_md_suffix = vimwiki#u#escape(s:wikilink_md_suffix)$/;"	v
+s:rx_wikilink_prefix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rx_wikilink_prefix = vimwiki#u#escape(s:wikilink_prefix)$/;"	v
+s:rx_wikilink_prefix1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rx_wikilink_prefix1 = s:rx_wikilink_prefix . g:vimwiki_rxWikiLinkUrl .$/;"	v
+s:rx_wikilink_separator	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rx_wikilink_separator = vimwiki#u#escape(s:wikilink_separator)$/;"	v
+s:rx_wikilink_suffix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rx_wikilink_suffix = vimwiki#u#escape(s:wikilink_suffix)$/;"	v
+s:rx_wikilink_suffix1	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:rx_wikilink_suffix1 = s:rx_wikilink_suffix$/;"	v
 s:s	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:s               = ",standout"$/;"	v
+s:safe_html_anchor	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:safe_html_anchor(string) "{{{$/;"	f
+s:safe_html_line	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:safe_html_line(line) "{{{$/;"	f
+s:safe_html_preformatted	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:safe_html_preformatted(line) "{{{$/;"	f
 s:samerootsyml	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:samerootsyml(each, isfile, cwd)$/;"	f
 s:sanstail	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sanstail(str)$/;"	f
 s:sass_cache_location	vim/bundle/syntastic/syntax_checkers/sass/sass.vim	/^let s:sass_cache_location = syntastic#util#tmpdir()$/;"	v
@@ -3061,8 +3704,10 @@ s:save_cpo	vim/bundle/syntastic/syntax_checkers/yang/pyang.vim	/^let s:save_cpo 
 s:save_cpo	vim/bundle/syntastic/syntax_checkers/z80/z80syntaxchecker.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	vim/bundle/syntastic/syntax_checkers/zpt/zptlint.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	vim/bundle/syntastic/syntax_checkers/zsh/zsh.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_vimwiki_buffer	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:save_vimwiki_buffer() "{{{$/;"	f
 s:savebookmark	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:savebookmark(name, cwd)$/;"	f
 s:savetofile	vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:savetofile(mrufs)$/;"	f
+s:scan_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:scan_tags(lines, page_name) "{{{$/;"	f
 s:script_path	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^let s:script_path = tolower(resolve(expand('<sfile>:p:h')))$/;"	v
 s:section_is_empty	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function! s:section_is_empty(self, content)$/;"	f
 s:section_truncate_width	vim/bundle/vim-airline/autoload/airline/extensions/default.vim	/^let s:section_truncate_width = get(g:, 'airline#extensions#default#section_truncate_width', {$/;"	v
@@ -3070,13 +3715,26 @@ s:section_use_groups	vim/bundle/vim-airline/autoload/airline/extensions/default.
 s:sections	vim/bundle/vim-airline/autoload/airline.vim	/^let s:sections = ['a','b','c','gutter','x','y','z', 'error', 'warning']$/;"	v
 s:sections	vim/bundle/vim-airline/t/init.vim	/^let s:sections = ['a', 'b', 'c', 'gutter', 'x', 'y', 'z', 'warning']$/;"	v
 s:select_tab	vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim	/^function! s:select_tab(buf_index)$/;"	f
+s:sep_splitter	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:sep_splitter() "{{{$/;"	f
 s:separators	vim/bundle/vim-airline/autoload/airline/highlighter.vim	/^let s:separators = {}$/;"	v
+s:set_indent	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:set_indent(lnum, new_indent) "{{{$/;"	f
+s:set_new_mrkr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:set_new_mrkr(item, new_mrkr) "{{{$/;"	f
+s:set_state	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:set_state(item, new_rate) "{{{$/;"	f
+s:set_state_plus_children	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:set_state_plus_children(item, new_rate) "{{{$/;"	f
+s:set_state_recursively	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:set_state_recursively(item, new_rate) "{{{$/;"	f
 s:setentries	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:setentries()$/;"	f
 s:settype	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:settype(type)$/;"	f
+s:setup_buffer_enter	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:setup_buffer_enter() "{{{$/;"	f
+s:setup_buffer_leave	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:setup_buffer_leave() "{{{$/;"	f
+s:setup_buffer_reenter	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:setup_buffer_reenter() "{{{$/;"	f
+s:setup_cleared_syntax	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:setup_cleared_syntax() "{{{ highlight groups that get cleared$/;"	f
 s:setup_done	vim/bundle/syntastic/plugin/syntastic/highlighting.vim	/^let s:setup_done = 0$/;"	v
 s:setup_done	vim/bundle/syntastic/plugin/syntastic/signs.vim	/^let s:setup_done = 0$/;"	v
+s:setup_filetype	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:setup_filetype() "{{{$/;"	f
 s:setupblank	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:setupblank()$/;"	f
 s:shorten	vim/bundle/vim-airline/autoload/airline/extensions/po.vim	/^function! s:shorten()$/;"	f
+s:shorten_text	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! s:shorten_text(text, len) "{{{ returns [string, spare]$/;"	f
+s:shorten_text_simple	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^function! s:shorten_text_simple(text, len) "{{{ unused$/;"	f
 s:shortest	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:shortest(lens)$/;"	f
 s:should_change_group	vim/bundle/vim-airline/autoload/airline/builder.vim	/^function! s:should_change_group(group1, group2)$/;"	f
 s:showMenu	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:showMenu(node)$/;"	f
@@ -3099,6 +3757,7 @@ s:skip_check_ft	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vi
 s:skip_symbol	vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/unique_tail_improved.vim	/^let s:skip_symbol = '…'$/;"	v
 s:solarized_termtrans_default	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:solarized_termtrans_default = 0$/;"	v
 s:solarized_termtrans_default	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:solarized_termtrans_default = 1$/;"	v
+s:sort	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! s:sort(lst) "{{{$/;"	f
 s:sortKeyFormat	vim/bundle/nerdtree/lib/nerdtree/path.vim	/^    let s:sortKeyFormat = "%0" . float2nr(ceil(log10(len(g:NERDTreeSortOrder)))) . "d"$/;"	v
 s:sortKeyFormat	vim/bundle/nerdtree/lib/nerdtree/path.vim	/^    let s:sortKeyFormat = "%04d"$/;"	v
 s:sp_back	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:sp_back      = ""$/;"	v
@@ -3131,9 +3790,16 @@ s:spc	vim/bundle/vim-airline/autoload/airline/extensions/ycm.vim	/^let s:spc = g
 s:spc	vim/bundle/vim-airline/autoload/airline/section.vim	/^let s:spc = g:airline_symbols.space$/;"	v
 s:spc	vim/bundle/vim-airline/autoload/airline/util.vim	/^let s:spc = g:airline_symbols.space$/;"	v
 s:sphinx_cache_location	vim/bundle/syntastic/syntax_checkers/rst/sphinx.vim	/^let s:sphinx_cache_location = syntastic#util#tmpdir()$/;"	v
+s:startDaemon	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:startDaemon(initialMDLines)$/;"	f
+s:string_length	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^  function! s:string_length(str)$/;"	f
 s:strwidth	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:strwidth(str)$/;"	f
 s:sublist	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist(l, s, e)$/;"	f
 s:sublist7071	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist7071(l, s, e)$/;"	f
+s:subst_func	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:subst_func(line, regexp, func, ...) " {{{$/;"	f
+s:substitute_rx_in_line	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:substitute_rx_in_line(lnum, pattern, new_string) "{{{$/;"	f
+s:substitute_string_in_line	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:substitute_string_in_line(lnum, old_string, new_string) "{{{$/;"	f
+s:sum_colspan	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:sum_colspan(table) "{{{$/;"	f
+s:sum_rowspan	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:sum_rowspan(table) "{{{$/;"	f
 s:switch_buffers_and_tabs	vim/bundle/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim	/^let s:switch_buffers_and_tabs = get(g:, 'airline#extensions#tabline#switch_buffers_and_tabs', 0)$/;"	v
 s:symbol	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:symbol = get(g:, 'airline#extensions#whitespace#symbol', g:airline_symbols.whitespace)$/;"	v
 s:sync_active_winnr	vim/bundle/vim-airline/autoload/airline/extensions.vim	/^function! s:sync_active_winnr()$/;"	f
@@ -3144,25 +3810,52 @@ s:syntax	vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! s:syntax()$/;"	f
 s:syntax	vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:syntax()$/;"	f
 s:syntax	vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:syntax()$/;"	f
 s:syntax	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:syntax()$/;"	f
+s:syntax_supported	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:syntax_supported() " {{{$/;"	f
+s:system	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:system(cmd, stdin)$/;"	f
 s:system_job_handler	vim/bundle/vim-airline/autoload/airline/util.vim	/^  function! s:system_job_handler(job_id, data, event) dict$/;"	f
+s:systemasync	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:systemasync(cmd, stdinLines)$/;"	f
 s:t_none	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:t_none          = "NONE"$/;"	v
 s:tab_min_count	vim/bundle/vim-airline/autoload/airline/extensions/tabline/autoshow.vim	/^let s:tab_min_count = get(g:, 'airline#extensions#tabline#tab_min_count', 0)$/;"	v
 s:tab_nr_type	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^let s:tab_nr_type = get(g:, 'airline#extensions#tabline#tab_nr_type', 0)$/;"	v
+s:table_add_row	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:table_add_row(table, line) "{{{$/;"	f
+s:table_empty_cell	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^  function! s:table_empty_cell(value) "{{{$/;"	f
 s:taboo	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^let s:taboo = get(g:, 'airline#extensions#taboo#enabled', 1) && get(g:, 'loaded_taboo', 0)$/;"	v
 s:tabs_label	vim/bundle/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim	/^let s:tabs_label = get(g:, 'airline#extensions#tabline#tabs_label', 'tabs')$/;"	v
 s:tabs_label	vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim	/^let s:tabs_label = get(g:, 'airline#extensions#tabline#tabs_label', 'tabs')$/;"	v
+s:tag_code	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_code(value) "{{{$/;"	f
+s:tag_em	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_em(value) "{{{$/;"	f
+s:tag_eqin	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_eqin(value) "{{{$/;"	f
+s:tag_remove_external_link	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_remove_external_link(value) "{{{$/;"	f
+s:tag_remove_internal_link	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_remove_internal_link(value) "{{{$/;"	f
+s:tag_strike	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_strike(value) "{{{$/;"	f
+s:tag_strong	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_strong(value, header_ids) "{{{$/;"	f
+s:tag_sub	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_sub(value) "{{{$/;"	f
+s:tag_super	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_super(value) "{{{$/;"	f
+s:tag_tags	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_tags(value, header_ids) "{{{$/;"	f
+s:tag_todo	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_todo(value) "{{{$/;"	f
+s:tag_weblink	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_weblink(value) "{{{$/;"	f
+s:tag_wikiincl	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_wikiincl(value) "{{{$/;"	f
+s:tag_wikilink	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:tag_wikilink(value) "{{{$/;"	f
+s:tags_entry_cmp	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:tags_entry_cmp(i1, i2) "{{{$/;"	f
 s:tail	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:tail()$/;"	f
+s:tail_name	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:tail_name(fname) "{{{$/;"	f
+s:target	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:target = vimwiki#base#apply_template($/;"	v
+s:target	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:target = vimwiki#base#apply_template($/;"	v
 s:temp00	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:temp00      = s:base00$/;"	v
 s:temp01	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:temp01      = s:base01$/;"	v
 s:temp02	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:temp02      = s:base02$/;"	v
 s:temp03	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:temp03      = s:base03$/;"	v
+s:temperedRefresh	vim/after/ftplugin/markdown/instant-markdown.vim	/^fu! s:temperedRefresh()$/;"	f
+s:template_full_name	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:template_full_name(name) "{{{$/;"	f
 s:terminal_italic	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^            let s:terminal_italic=1$/;"	v
 s:terminal_italic	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:terminal_italic=0 " terminals will be guilty until proven compatible$/;"	v
 s:terminal_italic	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:terminal_italic=1 " TODO: could refactor to not require this at all$/;"	v
 s:terms_italic	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:terms_italic=[$/;"	v
 s:terms_noitalic	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^let s:terms_noitalic=[$/;"	v
 s:text	vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:text = map(['second', 'seconds', 'minutes', 'hours', 'days', 'weeks',$/;"	v
+s:text_begin	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:text_begin(lnum) "{{{$/;"	f
 s:textdialog	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:textdialog(str)$/;"	f
+s:textwidth	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^let s:textwidth = &tw$/;"	v
 s:tmuxline_snapshot_file	vim/bundle/vim-airline/autoload/airline/extensions/tmuxline.vim	/^let s:tmuxline_snapshot_file = get(g:, 'airline#extensions#tmuxline#snapshot_file', '')$/;"	v
 s:toggleIgnoreFilter	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleIgnoreFilter()$/;"	f
 s:toggleShowBookmarks	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowBookmarks()$/;"	f
@@ -3171,6 +3864,7 @@ s:toggleShowHidden	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function!
 s:toggleZoom	vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleZoom()$/;"	f
 s:toggle_off	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^function! s:toggle_off()$/;"	f
 s:toggle_on	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^function! s:toggle_on()$/;"	f
+s:tolerance	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^let s:tolerance = 5$/;"	v
 s:trace	vim/bundle/ctrlp.vim/autoload/ctrlp/autoignore.vim	/^function! s:trace(message) abort$/;"	f
 s:trailing_format	vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim	/^let s:trailing_format = get(g:, 'airline#extensions#whitespace#trailing_format', '[%s]trailing')$/;"	v
 s:tree_up_dir_line	vim/bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
@@ -3193,12 +3887,21 @@ s:update_git_branch	vim/bundle/vim-airline/autoload/airline/extensions/branch.vi
 s:update_hg_branch	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:update_hg_branch(path)$/;"	f
 s:update_queue	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:update_queue[module] = []$/;"	v
 s:update_queue	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:update_queue = {}$/;"	v
+s:update_state	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! s:update_state(item) "{{{$/;"	f
 s:update_tabline	vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim	/^function! s:update_tabline()$/;"	f
 s:update_tags	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:update_tags(bufno, module, write_mode, queue_mode) abort$/;"	f
 s:update_untracked	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:update_untracked()$/;"	f
 s:update_untracked_in_buffer_config	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:update_untracked_in_buffer_config(file, vcs)$/;"	f
+s:update_wiki_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:update_wiki_link(fname, old, new) " {{{$/;"	f
+s:update_wiki_links	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:update_wiki_links(old_fname, new_fname) " {{{$/;"	f
+s:update_wiki_links_dir	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:update_wiki_links_dir(dir, old_fname, new_fname) " {{{$/;"	f
+s:use_custom_wiki2html	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! s:use_custom_wiki2html() "{{{$/;"	f
 s:usrign	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:usrign(item, type)$/;"	f
 s:vacantdict	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:vacantdict(dict)$/;"	f
+s:valid_chars	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:valid_chars = '[^\\\\\\]]'$/;"	v
+s:valid_chars	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:valid_chars = '[^\\\\\\}]'$/;"	v
+s:valid_chars	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:valid_chars = '[^\\\\\\[\\]]'$/;"	v
+s:valid_chars	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:valid_chars = '[^\\\\]'$/;"	v
 s:validfile	vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:validfile(fname, ftype)$/;"	f
 s:vcs_config	vim/bundle/vim-airline/autoload/airline/extensions/branch.vim	/^let s:vcs_config = {$/;"	v
 s:vert_split	vim/bundle/gruvbox/colors/gruvbox.vim	/^  let s:vert_split = get(s:gb, g:gruvbox_vert_split)$/;"	v
@@ -3206,6 +3909,34 @@ s:vert_split	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:vert_split = s:bg2$/;
 s:vim_bg	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:vim_bg = ['bg', 'bg']$/;"	v
 s:vim_fg	vim/bundle/gruvbox/colors/gruvbox.vim	/^let s:vim_fg = ['fg', 'fg']$/;"	v
 s:vimlintOutput	vim/bundle/syntastic/syntax_checkers/vim/vimlint.vim	/^function! s:vimlintOutput(filename, pos, ev, eid, mes, obj) " {{{2$/;"	f
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults = {}$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.auto_export = 0$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.auto_tags = 0$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.auto_toc = 0$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.automatic_nested_syntaxes = 1$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.css_name = 'style.css'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.custom_wiki2html = ''$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.diary_header = 'Diary'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.diary_index = 'diary'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.diary_link_fmt = '%Y-%m-%d'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.diary_rel_path = 'diary\/'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.diary_sort = 'desc'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.ext = '.wiki'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.index = 'index'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.list_margin = -1$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.maxhi = 0$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.nested_syntaxes = {}$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.path = '~\/vimwiki\/'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.path_html = ''   " '' is replaced by derived path.'_html\/'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.syntax = 'default'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.temp = 0$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.template_default = 'default'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.template_ext = '.tpl'$/;"	v
+s:vimwiki_defaults	vim/bundle/vimwiki/plugin/vimwiki.vim	/^let s:vimwiki_defaults.template_path = '~\/vimwiki\/templates\/'$/;"	v
+s:vimwiki_get_known_extensions	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:vimwiki_get_known_extensions() " {{{$/;"	f
+s:vimwiki_get_known_syntaxes	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! s:vimwiki_get_known_syntaxes() " {{{$/;"	f
+s:vimwiki_idx	vim/bundle/vimwiki/plugin/vimwiki.vim	/^function! s:vimwiki_idx() " {{{$/;"	f
+s:vimwiki_max_scan_for_caption	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^let s:vimwiki_max_scan_for_caption = 5$/;"	v
 s:violet	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_dark.vim	/^	let s:violet  = ['#6c71c4',  '61']$/;"	v
 s:violet	vim/bundle/flattened/autoload/lightline/colorscheme/flattened_light.vim	/^	let s:violet  = ['#6c71c4',  '61']$/;"	v
 s:violet	vim/bundle/vim-colors-solarized/colors/solarized.vim	/^    let s:violet      = "#5f5faf"$/;"	v
@@ -3220,9 +3951,20 @@ s:warn	vim/autoload/pathogen.vim	/^function! s:warn(msg) abort$/;"	f
 s:warning_symbol	vim/bundle/vim-airline/autoload/airline/extensions/ale.vim	/^let s:warning_symbol = get(g:, 'airline#extensions#ale#warning_symbol', 'W:')$/;"	v
 s:warning_symbol	vim/bundle/vim-airline/autoload/airline/extensions/neomake.vim	/^let s:warning_symbol = get(g:, 'airline#extensions#neomake#warning_symbol', 'W:')$/;"	v
 s:warning_symbol	vim/bundle/vim-airline/autoload/airline/extensions/ycm.vim	/^let s:warning_symbol = get(g:, 'airline#extensions#ycm#warning_symbol', 'W:')$/;"	v
+s:wide_len	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! s:wide_len(str) "{{{$/;"	f
 s:wig_cond	vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^let s:wig_cond = v:version > 702 || ( v:version == 702 && has('patch051') )$/;"	v
+s:wikilink_md_prefix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:wikilink_md_prefix = '['$/;"	v
+s:wikilink_md_separator	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:wikilink_md_separator = ']['$/;"	v
+s:wikilink_md_suffix	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^let s:wikilink_md_suffix = ']'$/;"	v
+s:wikilink_prefix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:wikilink_prefix = '[['$/;"	v
+s:wikilink_separator	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:wikilink_separator = '|'$/;"	v
+s:wikilink_suffix	vim/bundle/vimwiki/syntax/vimwiki.vim	/^let s:wikilink_suffix = ']]'$/;"	v
+s:win32_handler	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^  function! s:win32_handler(url)$/;"	f
+s:winasync	vim/after/ftplugin/markdown/instant-markdown.vim	/^function! s:winasync(cmd, stdinLines)$/;"	f
 s:wordcount	vim/bundle/vim-airline/autoload/airline/extensions/wordcount/formatters/default.vim	/^function! s:wordcount()$/;"	f
 s:wrap_accent	vim/bundle/vim-airline/autoload/airline/section.vim	/^function! s:wrap_accent(part, value)$/;"	f
+s:wrap_wikilink1_rx	vim/bundle/vimwiki/syntax/vimwiki_markdown_custom.vim	/^function! s:wrap_wikilink1_rx(target) "{{{$/;"	f
+s:write_tags_metadata	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! s:write_tags_metadata(metadata) "{{{$/;"	f
 s:write_triggered_update_tags	vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:write_triggered_update_tags(bufno) abort$/;"	f
 s:writecache	vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:writecache(cafile)$/;"	f
 s:writecache	vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:writecache(lines)$/;"	f
@@ -3324,15 +4066,156 @@ syntastic#util#var	vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! 
 syntastic#util#versionIsAtLeast	vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#versionIsAtLeast(installed, required) abort " {{{2$/;"	f
 syntastic#util#wformat	vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#wformat(format, str) abort " {{{2$/;"	f
 syntastic#util#wideMsg	vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#wideMsg(msg) abort " {{{2$/;"	f
+table	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+td	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^th, td {border: 1px solid #ccc; padding: 0.3em;}$/;"	s
 text	vim/bundle/syntastic/syntax_checkers/python/codec.py	/^            text = codecs.lookup(match.groupdict()["coding"]).incrementaldecoder().decode($/;"	v
 text	vim/bundle/syntastic/syntax_checkers/python/codec.py	/^        text = ''.join(text).encode('utf-8')$/;"	v
 text	vim/bundle/syntastic/syntax_checkers/python/codec.py	/^        text = fle.readlines()$/;"	v
+th	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^th {background-color: #f0f0f0;}$/;"	s
+th	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^th, td {border: 1px solid #ccc; padding: 0.3em;}$/;"	s
 togglebg#map	vim/bundle/vim-colors-solarized/autoload/togglebg.vim	/^function! togglebg#map(mapActivation)$/;"	f
 translate_path	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^translate_path(Dir, {i, Path}) ->$/;"	f
 translate_path	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^translate_path(_, Other) -> Other.$/;"	f
 translate_paths	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^translate_paths(Dir, RebarOpts) ->$/;"	f
+ul	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^p, pre, blockquote, table, ul, ol, dl {margin-top: 1em; margin-bottom: 1em;}$/;"	s
+ul	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^ul {margin-left: 2em; padding-left: 0.5em;}$/;"	s
+ul ol	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}$/;"	s
+ul ul	vim/bundle/vimwiki/autoload/vimwiki/style.css	/^ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}$/;"	s
 use_raw_list	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%FILE_LIST_CMD_IS_ABSOLUTE%"]==["1"] set use_raw_list=1$/;"	v
 use_raw_list	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%PROJECT_ROOT%"]==["."] set use_raw_list=1$/;"	v
 use_raw_list	vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set use_raw_list=0$/;"	v
+vimwiki	vim/bundle/vimwiki/ftplugin/vimwiki.vim	/^  augroup vimwiki$/;"	a
+vimwiki	vim/bundle/vimwiki/plugin/vimwiki.vim	/^augroup vimwiki$/;"	a
+vimwiki#base#AddHeaderLevel	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#AddHeaderLevel() "{{{$/;"	f
+vimwiki#base#RemoveHeaderLevel	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#RemoveHeaderLevel() "{{{$/;"	f
+vimwiki#base#TO_header	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#TO_header(inner, visual) "{{{$/;"	f
+vimwiki#base#TO_table_cell	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#TO_table_cell(inner, visual) "{{{$/;"	f
+vimwiki#base#TO_table_col	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#TO_table_col(inner, visual) "{{{$/;"	f
+vimwiki#base#apply_template	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#apply_template(template, rxUrl, rxDesc, rxStyle) "{{{$/;"	f
+vimwiki#base#apply_wiki_options	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#apply_wiki_options(options) " {{{ Update the current$/;"	f
+vimwiki#base#backlinks	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#backlinks() "{{{$/;"	f
+vimwiki#base#cache_buffer_state	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#cache_buffer_state() "{{{$/;"	f
+vimwiki#base#check_links	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#check_links() "{{{$/;"	f
+vimwiki#base#complete_links_escaped	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#complete_links_escaped(ArgLead, CmdLine, CursorPos) abort " {{{$/;"	f
+vimwiki#base#current_subdir	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#current_subdir(idx)"{{{$/;"	f
+vimwiki#base#delete_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#delete_link() "{{{$/;"	f
+vimwiki#base#detect_nested_syntax	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#detect_nested_syntax() "{{{$/;"	f
+vimwiki#base#edit_file	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#edit_file(command, filename, anchor, ...) "{{{$/;"	f
+vimwiki#base#file_pattern	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#file_pattern(files) "{{{ Get search regex from glob()$/;"	f
+vimwiki#base#find_files	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#find_files(wiki_nr, directories_only)$/;"	f
+vimwiki#base#find_next_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#find_next_link() "{{{$/;"	f
+vimwiki#base#find_prev_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#find_prev_link() "{{{$/;"	f
+vimwiki#base#find_wiki	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#find_wiki(path) "{{{$/;"	f
+vimwiki#base#follow_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#follow_link(split, reuse, move_cursor, ...) "{{{$/;"	f
+vimwiki#base#generate_links	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#generate_links() "{{{$/;"	f
+vimwiki#base#get_anchors	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#get_anchors(filename, syntax) "{{{$/;"	f
+vimwiki#base#get_globlinks_escaped	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#get_globlinks_escaped() abort "{{{only get links from the current dir$/;"	f
+vimwiki#base#get_wiki_directories	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#get_wiki_directories(wiki_nr)$/;"	f
+vimwiki#base#get_wikilinks	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#get_wikilinks(wiki_nr, also_absolute_links)$/;"	f
+vimwiki#base#go_back_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#go_back_link() "{{{$/;"	f
+vimwiki#base#goto	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#goto(...) "{{{$/;"	f
+vimwiki#base#goto_index	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#goto_index(wnum, ...) "{{{$/;"	f
+vimwiki#base#invsubdir	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#invsubdir(subdir) " {{{$/;"	f
+vimwiki#base#matchstr_at_cursor	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#matchstr_at_cursor(wikiRX) "{{{$/;"	f
+vimwiki#base#nested_syntax	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#nested_syntax(filetype, start, end, textSnipHl) abort "{{{$/;"	f
+vimwiki#base#normalize_imagelink_helper	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#normalize_imagelink_helper(str, rxUrl, rxDesc, rxStyle, template) "{{{$/;"	f
+vimwiki#base#normalize_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#normalize_link(is_visual_mode) "{{{$/;"	f
+vimwiki#base#normalize_link_helper	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#normalize_link_helper(str, rxUrl, rxDesc, template) " {{{$/;"	f
+vimwiki#base#open_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#open_link(cmd, link, ...) "{{{$/;"	f
+vimwiki#base#print_wiki_state	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#print_wiki_state() "{{{ print wiki options$/;"	f
+vimwiki#base#read_wiki_options	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#read_wiki_options(check) " {{{ Attempt to read wiki$/;"	f
+vimwiki#base#recall_buffer_state	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#recall_buffer_state() "{{{$/;"	f
+vimwiki#base#rename_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#rename_link() "{{{$/;"	f
+vimwiki#base#replacestr_at_cursor	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#replacestr_at_cursor(wikiRX, sub) "{{{$/;"	f
+vimwiki#base#resolve_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#resolve_link(link_text, ...) "{{{$/;"	f
+vimwiki#base#search_word	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#search_word(wikiRx, cmd) "{{{$/;"	f
+vimwiki#base#setup_buffer_state	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#setup_buffer_state(idx) " {{{ Init page-specific variables$/;"	f
+vimwiki#base#subdir	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#subdir(path, filename) "{{{$/;"	f
+vimwiki#base#system_open_link	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#system_open_link(url) "{{{$/;"	f
+vimwiki#base#table_of_contents	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#table_of_contents(create)$/;"	f
+vimwiki#base#ui_select	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#ui_select() "{{{$/;"	f
+vimwiki#base#update_listing_in_buffer	vim/bundle/vimwiki/autoload/vimwiki/base.vim	/^function! vimwiki#base#update_listing_in_buffer(strings, start_header,$/;"	f
+vimwiki#diary#calendar_action	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#calendar_action(day, month, year, week, dir) "{{{$/;"	f
+vimwiki#diary#calendar_sign	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function vimwiki#diary#calendar_sign(day, month, year) "{{{$/;"	f
+vimwiki#diary#generate_diary_section	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#generate_diary_section() "{{{$/;"	f
+vimwiki#diary#goto_diary_index	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#goto_diary_index(wnum) "{{{$/;"	f
+vimwiki#diary#goto_next_day	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#goto_next_day() "{{{$/;"	f
+vimwiki#diary#goto_prev_day	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#goto_prev_day() "{{{$/;"	f
+vimwiki#diary#make_note	vim/bundle/vimwiki/autoload/vimwiki/diary.vim	/^function! vimwiki#diary#make_note(wnum, ...) "{{{$/;"	f
+vimwiki#html#CatUrl	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#CatUrl(wikifile) "{{{$/;"	f
+vimwiki#html#CustomWiki2HTML	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#CustomWiki2HTML(path, wikifile, force) "{{{$/;"	f
+vimwiki#html#PasteUrl	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#PasteUrl(wikifile) "{{{$/;"	f
+vimwiki#html#Wiki2HTML	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#Wiki2HTML(path_html, wikifile) "{{{$/;"	f
+vimwiki#html#WikiAll2HTML	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#WikiAll2HTML(path_html) "{{{$/;"	f
+vimwiki#html#incl_match_arg	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#incl_match_arg(nn_index)$/;"	f
+vimwiki#html#linkify_image	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#linkify_image(src, descr, verbatim_str) "{{{$/;"	f
+vimwiki#html#linkify_link	vim/bundle/vimwiki/autoload/vimwiki/html.vim	/^function! vimwiki#html#linkify_link(src, descr) "{{{$/;"	f
+vimwiki#lst#TO_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#TO_list_item(inner, visual) "{{{$/;"	f
+vimwiki#lst#adjust_numbered_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#adjust_numbered_list() "{{{$/;"	f
+vimwiki#lst#adjust_whole_buffer	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#adjust_whole_buffer() "{{{$/;"	f
+vimwiki#lst#change_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#change_level(from_line, to_line, direction, plus_children) "{{{$/;"	f
+vimwiki#lst#change_marker	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#change_marker(from_line, to_line, new_mrkr, mode) "{{{$/;"	f
+vimwiki#lst#change_marker_in_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#change_marker_in_list(new_mrkr) "{{{$/;"	f
+vimwiki#lst#default_symbol	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#default_symbol() "{{{$/;"	f
+vimwiki#lst#fold_level	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^fun! vimwiki#lst#fold_level(lnum) "{{{$/;"	f
+vimwiki#lst#get_list_margin	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#get_list_margin() "{{{$/;"	f
+vimwiki#lst#kbd_O	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#kbd_O() "{{{$/;"	f
+vimwiki#lst#kbd_cr	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#kbd_cr(normal, just_mrkr) "{{{$/;"	f
+vimwiki#lst#kbd_o	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#kbd_o() "{{{$/;"	f
+vimwiki#lst#remove_cb	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#remove_cb(first_line, last_line) "{{{$/;"	f
+vimwiki#lst#remove_cb_in_list	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#remove_cb_in_list() "{{{$/;"	f
+vimwiki#lst#setup_marker_infos	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#setup_marker_infos() "{{{$/;"	f
+vimwiki#lst#toggle_cb	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#toggle_cb(from_line, to_line) "{{{$/;"	f
+vimwiki#lst#toggle_list_item	vim/bundle/vimwiki/autoload/vimwiki/lst.vim	/^function! vimwiki#lst#toggle_list_item() "{{{$/;"	f
+vimwiki#markdown_base#get_reflinks	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! vimwiki#markdown_base#get_reflinks() " {{{$/;"	f
+vimwiki#markdown_base#normalize_link	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! vimwiki#markdown_base#normalize_link(is_visual_mode) "{{{$/;"	f
+vimwiki#markdown_base#open_reflink	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! vimwiki#markdown_base#open_reflink(link) " {{{$/;"	f
+vimwiki#markdown_base#reset_mkd_refs	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! vimwiki#markdown_base#reset_mkd_refs() "{{{$/;"	f
+vimwiki#markdown_base#scan_reflinks	vim/bundle/vimwiki/autoload/vimwiki/markdown_base.vim	/^function! vimwiki#markdown_base#scan_reflinks() " {{{$/;"	f
+vimwiki#path#abs_path_of_link	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#abs_path_of_link(link) "{{{$/;"	f
+vimwiki#path#chomp_slash	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#chomp_slash(str) "{{{$/;"	f
+vimwiki#path#current_wiki_file	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#current_wiki_file()$/;"	f
+vimwiki#path#is_absolute	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#is_absolute(path) "{{{$/;"	f
+vimwiki#path#is_equal	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^  function! vimwiki#path#is_equal(p1, p2)$/;"	f
+vimwiki#path#is_link_to_dir	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#is_link_to_dir(link) "{{{$/;"	f
+vimwiki#path#join_path	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^  function! vimwiki#path#join_path(directory, file)$/;"	f
+vimwiki#path#mkdir	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#mkdir(path, ...) "{{{$/;"	f
+vimwiki#path#normalize	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#normalize(path) "{{{$/;"	f
+vimwiki#path#path_common_pfx	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#path_common_pfx(path1, path2) "{{{$/;"	f
+vimwiki#path#path_norm	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#path_norm(path) "{{{$/;"	f
+vimwiki#path#relpath	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#relpath(dir, file) "{{{$/;"	f
+vimwiki#path#wikify_path	vim/bundle/vimwiki/autoload/vimwiki/path.vim	/^function! vimwiki#path#wikify_path(path) "{{{$/;"	f
+vimwiki#tags#complete_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! vimwiki#tags#complete_tags(ArgLead, CmdLine, CursorPos) abort " {{{$/;"	f
+vimwiki#tags#generate_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! vimwiki#tags#generate_tags(...) abort "{{{$/;"	f
+vimwiki#tags#get_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! vimwiki#tags#get_tags() "{{{$/;"	f
+vimwiki#tags#metadata_file_path	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! vimwiki#tags#metadata_file_path() abort "{{{$/;"	f
+vimwiki#tags#update_tags	vim/bundle/vimwiki/autoload/vimwiki/tags.vim	/^function! vimwiki#tags#update_tags(full_rebuild, all_files) "{{{$/;"	f
+vimwiki#tbl#align_or_cmd	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#align_or_cmd(cmd) "{{{$/;"	f
+vimwiki#tbl#cell_splitter	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#cell_splitter() "{{{$/;"	f
+vimwiki#tbl#create	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#create(...) "{{{$/;"	f
+vimwiki#tbl#format	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#format(lnum, ...) "{{{$/;"	f
+vimwiki#tbl#get_cells	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#get_cells(line) "{{{$/;"	f
+vimwiki#tbl#get_rows	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#get_rows(lnum) "{{{$/;"	f
+vimwiki#tbl#goto_next_col	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#goto_next_col() "{{{$/;"	f
+vimwiki#tbl#goto_prev_col	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#goto_prev_col() "{{{$/;"	f
+vimwiki#tbl#is_separator	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#is_separator(line) "{{{$/;"	f
+vimwiki#tbl#is_table	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#is_table(line) "{{{$/;"	f
+vimwiki#tbl#kbd_cr	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#kbd_cr() "{{{$/;"	f
+vimwiki#tbl#kbd_shift_tab	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#kbd_shift_tab() "{{{$/;"	f
+vimwiki#tbl#kbd_tab	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#kbd_tab() "{{{$/;"	f
+vimwiki#tbl#move_column_left	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#move_column_left() "{{{$/;"	f
+vimwiki#tbl#move_column_right	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#move_column_right() "{{{$/;"	f
+vimwiki#tbl#reset_tw	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#reset_tw(lnum) "{{{$/;"	f
+vimwiki#tbl#sep_splitter	vim/bundle/vimwiki/autoload/vimwiki/tbl.vim	/^function! vimwiki#tbl#sep_splitter() "{{{$/;"	f
+vimwiki#u#count_first_sym	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#count_first_sym(line) "{{{$/;"	f
+vimwiki#u#cursor	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#cursor(lnum, cnum) "{{{$/;"	f
+vimwiki#u#escape	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#escape(string) "{{{$/;"	f
+vimwiki#u#is_macos	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#is_macos()$/;"	f
+vimwiki#u#is_windows	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#is_windows() "{{{$/;"	f
+vimwiki#u#reload_omni_regexes	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function vimwiki#u#reload_omni_regexes() "{{{$/;"	f
+vimwiki#u#reload_regexes	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function vimwiki#u#reload_regexes() "{{{$/;"	f
+vimwiki#u#reload_regexes_custom	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function vimwiki#u#reload_regexes_custom() "{{{$/;"	f
+vimwiki#u#sw	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^  func vimwiki#u#sw()$/;"	f
+vimwiki#u#trim	vim/bundle/vimwiki/autoload/vimwiki/u.vim	/^function! vimwiki#u#trim(string, ...) "{{{$/;"	f
 which_build_tool	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^which_build_tool(Dir, Profile) ->$/;"	f
 which_compile_opts_profile	vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^which_compile_opts_profile(File) ->$/;"	f
