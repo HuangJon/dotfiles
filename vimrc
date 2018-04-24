@@ -7,7 +7,7 @@ set nocompatible
 filetype plugin on
 filetype plugin indent on
 syntax on
-filetype off				" required
+" filetype off				" required
 
 
 
@@ -31,56 +31,32 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
+
 " PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   " Both options are optional. You don't have to install fzf in ~/.fzf
   " and you don't have to run install script if you use fzf only in Vim.
+  "
 Plug 'airblade/vim-gitgutter'
 Plug 'majutsushi/tagbar'
 Plug 'ryanoasis/vim-devicons'
+Plug 'artur-shaik/vim-javacomplete2'
 " Snippet manager
-" Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips' 
+Plug 'honza/vim-snippets'
+" C++ snips
+" Plug 'LucHermitte/lh-cpp'
 
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-airline/vim-airline'
-Plug 'morhetz/gruvbox'
-
+Plug 'morhetz/gruvbox' 
 " Plug 'ctrlpvim/ctrlp.vim'
-Plug 'ludovicchabant/vim-gutentags'
-
-
+Plug 'ludovicchabant/vim-gutentags' 
 Plug 'Townk/vim-autoclose'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 call plug#end()
-
-" execute pathogen#infect()
-" " set the runtime path to iclude Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-"
-" " let Vundle manage vundle, required
-" Plugin 'VundleVim/Vundle.vim'
-" Plugin 'micha/vim-colors-solarized'
-" Plugin 'fatih/vim-go'
-" Plugin 'Valloric/YouCompleteMe'
-" Plugin 'majutsushi/tagbar'
-" Plugin 'christoomey/vim-tmux-navigator'
-" Plugin 'vim-airline/vim-airline'
-" Plugin 'morhetz/gruvbox'
-"
-" Plugin 'ctrlpvim/ctrlp.vim'
-" Plugin 'ludovicchabant/vim-gutentags'
-"
-" Plugin 'Townk/vim-autoclose'
-" Plugin 'tpope/vim-fugitive'
-" Plugin 'scrooloose/nerdcommenter'
-" Plugin 'scrooloose/nerdtree'
-"
-" " All of your Plugins must  be added before the following line
-" call vundle#end()			" required
-" filetype plugin indent on	" required
 
 set colorcolumn=81
 set textwidth=80
@@ -187,14 +163,43 @@ let g:ale_sign_warning = '⚠⚠'
 let g:ale_open_list = 0
 let g:ale_loclist = 0
 
+nmap <silent> <C-m> <Plug>(ale_previous_wrap)
+nmap <silent> <C-n> <Plug>(ale_next_wrap)
+
+" Put this in vimrc or a plugin file of your own.
+" After this is configured, :ALEFix will try and fix your JS code with ESLint.
+let g:ale_fixers = {
+\   'javascript': ['eslint'],
+\   'java'      : ['google_java_format' ],
+\}
+
+" Bind ctrl-shift-o to fixing problems with ALE
+nmap <c-s-o> <Plug>(ale_fix)
 
 " Setup compilers for languages
 
 let g:ale_linters = {
-      \  'cs':['syntax', 'semantic', 'issues'],
-      \  'python': ['pylint'],
-      \  'java': ['javac']
+      \  'cs'         : ['syntax', 'semantic', 'issues'],
+      \  'python'     : ['pylint'],
+      \  'java'       : ['javac'],
+      \  'bash'       : [ 'shellcheck' ],
+      \  'c++'        : [ 'gcc' ],
+      \  'dockerfile' : [ 'hadolint' ],
+      \  'haskell'    : [ 'ghc' ],
+      \  'vim'        : [ 'vlint' ],
       \ }
+
+"snippets
+" Since we are already using Deoplete, and using tab with both doesn't work nice use <c-j> instead
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
+let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
 
 
 ""airline""
@@ -294,8 +299,8 @@ let g:go_metalinter_autosave = 1
 let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
 let g:go_metalinter_deadline = "6s"
 
-map <C-n> :cnext<CR>
-map <C-m> :cprevious<CR>
+" map <C-n> :cnext<CR>
+" map <C-m> :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
 
 autocmd FileType go nmap<leader>b <Plug>(go-build)
