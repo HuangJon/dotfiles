@@ -48,8 +48,11 @@ Plug 'honza/vim-snippets'
 " Plug 'LucHermitte/lh-cpp'
 
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
+
 Plug 'morhetz/gruvbox' 
+Plug 'arcticicestudio/nord-vim'
 " Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ludovicchabant/vim-gutentags' 
 Plug 'Townk/vim-autoclose'
@@ -78,12 +81,20 @@ se t_Co=256
 set background=dark
 set number
 set laststatus=2
+set termguicolors 
 
 syntax enable
-let g:gruvbox_termcolors = 256
+" let g:gruvbox_termcolors = 256
 let g:gruvbox_contrast_light = "soft"
 let g:gruvbox_contrast_dark ="soft"
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme nord
+let g:nord_uniform_diff_background = 1
+let g:nord_comment_brightness = 20
+if &diff
+    colorscheme nord
+endif
+
 
 
 
@@ -191,9 +202,9 @@ let g:ale_linters = {
 
 "snippets
 " Since we are already using Deoplete, and using tab with both doesn't work nice use <c-j> instead
-let g:UltiSnipsExpandTrigger="<c-j>"
-let g:UltiSnipsJumpForwardTrigger="<c-j>"
-let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:UltiSnipsExpandTrigger="<c-l>"
+let g:UltiSnipsJumpForwardTrigger="<c-l>"
+let g:UltiSnipsJumpBackwardTrigger="<c-h>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
@@ -207,6 +218,38 @@ set laststatus=2 	""always shows status line
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
+
+" lightline
+" Tomorrow_night
+let g:lightline = {
+  \   'colorscheme': 'nord',
+  \   'active': {
+  \     'left':[ [ 'mode', 'paste' ],
+  \              [ 'gitbranch', 'readonly', 'filename', 'modified', 'tagbar' ],
+  \     ]
+  \   },
+	\   'component': {
+	\     'lineinfo': ' %3l:%-2v',
+  \     'tagbar': '%{tagbar#currenttag("%s", "", "f")}',
+	\   },
+  \   'component_function': {
+  \     'gitbranch': 'fugitive#head',
+  \   },
+  \ }
+let g:lightline.separator = {
+	\   'left': '', 'right': ''
+  \}
+let g:lightline.subseparator = {
+	\   'left': '', 'right': '' 
+  \}
+
+
+let g:lightline.tabline = {
+  \   'left': [ ['tabs'] ],
+  \   'right': [ ['close'] ]
+  \ }
+set showtabline=2  " Show tabline
+set guioptions-=e  " Don't use GUI tabline
 
 
 "" fzf mapping
