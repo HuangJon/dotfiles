@@ -110,6 +110,7 @@ let g:gruvbox_contrast_dark ="soft"
 colorscheme gruvbox
 
 
+
 " set term=screen-256color-bce
 " let g:solarized_termcolors=256
 " set t_Co=256
@@ -205,6 +206,11 @@ let g:airline_powerline_fonts = 1
 
 "" fzf mapping
 map <C-p> :FZF<CR>
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
+
 
 " Use the correct file source, based on context
 function! ContextualFZF()
@@ -227,7 +233,7 @@ function! ContextualFZF()
         \})
     endif
 endfunction
-map <C-p> :call ContextualFZF()<CR>
+" map <C-p> :call ContextualFZF()<CR>
 
 
 " ""ctrlp""
@@ -316,3 +322,12 @@ let g:NERDAltDelims_java = 1
 let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
+
+" loading the plugin
+let g:webdevicons_enable = 1
+" adding to vim-airline's tabline
+let g:webdevicons_enable_airline_tabline = 1
+" adding to vim-airline's statusline
+let g:webdevicons_enable_airline_statusline = 1
+" ctrlp glyphs
+let g:webdevicons_enable_ctrlp = 1
