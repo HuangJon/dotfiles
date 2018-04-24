@@ -81,14 +81,14 @@ se t_Co=256
 set background=dark
 set number
 set laststatus=2
-set termguicolors 
+set termguicolors
 
 syntax enable
-" let g:gruvbox_termcolors = 256
+let g:gruvbox_termcolors = 256
 let g:gruvbox_contrast_light = "soft"
 let g:gruvbox_contrast_dark ="soft"
-" colorscheme gruvbox
-colorscheme nord
+colorscheme gruvbox
+" colorscheme nord
 let g:nord_uniform_diff_background = 1
 let g:nord_comment_brightness = 20
 if &diff
@@ -220,7 +220,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_powerline_fonts = 1
 
 " lightline
-" Tomorrow_night
+" Tomorrow_Night
+" seoul256
+" nord
 let g:lightline = {
   \   'colorscheme': 'nord',
   \   'active': {
@@ -333,6 +335,14 @@ nnoremap <leader>bp :bp<CR>
 "" tagbar toggle with f8
 nmap <F8> :TagbarToggle<CR>
 
+"" window resize 
+nnoremap <silent> <Leader>k :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>j :exe "resize " . (winheight(0) * 2/3)<CR>
+nnoremap <silent> <Leader>l :exe "vertical resize +5" <CR>
+nnoremap <silent> <Leader>h :exe "vertical resize -5" <CR>
+
+:vertical resize +5
+:vertical resize -5
 "" vim-go
 " :GoRename for refactoring
 " vif select inside function 
