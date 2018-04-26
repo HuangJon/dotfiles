@@ -304,6 +304,20 @@ let g:vimwiki_list = [{'path': '~/vimwiki/',
 " Java completion
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 autocmd FileType java JCEnable
+"" smart guess import 
+nmap <F4> <Plug>(JavaComplete-Imports-AddSmart) 
+imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
+"" import with ask
+nmap <F5> <Plug>(JavaComplete-Imports-Add)
+imap <F5> <Plug>(JavaComplete-Imports-Add)
+"" add missing imports 
+nmap <F6> <Plug>(JavaComplete-Imports-AddMissing) 
+imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
+"" remove unused imports 
+nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused) 
+imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
+
+
 
 
 
