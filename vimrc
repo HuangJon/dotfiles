@@ -19,18 +19,18 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'VundleVim/Vundle.vim'
-Plug 'micha/vim-colors-solarized'
-Plug 'fatih/vim-go'
+" Plug 'micha/vim-colors-solarized'
+" Plug 'fatih/vim-go'
 Plug 'w0rp/ale'
 " Plug 'Valloric/YouCompleteMe'
 " Code completion
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+" if has('nvim')
+  " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+  " Plug 'Shougo/deoplete.nvim'
+  " Plug 'roxma/nvim-yarp'
+  " Plug 'roxma/vim-hug-neovim-rpc'
+" endif
 
 " PlugInstall and PlugUpdate will clone fzf in ~/.fzf and run install script
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -40,7 +40,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'airblade/vim-gitgutter'
 Plug 'majutsushi/tagbar'
 Plug 'ryanoasis/vim-devicons'
-Plug 'artur-shaik/vim-javacomplete2'
+" Plug 'artur-shaik/vim-javacomplete2'
 " Snippet manager
 Plug 'SirVer/ultisnips' 
 Plug 'honza/vim-snippets'
@@ -67,6 +67,7 @@ set wrap
 set formatoptions=qrn1
 
 
+set clipboard=unnamedplus
 set spelllang=en		"spelling language
 "" set spellfile=$HOME/.vim/wordlist/en.utf-8.add
 set autoindent
@@ -194,7 +195,7 @@ let g:ale_linters = {
       \  'python'     : ['pylint'],
       \  'java'       : ['javac'],
       \  'bash'       : [ 'shellcheck' ],
-      \  'c++'        : [ 'gcc' ],
+      \  'c++'        : [ 'clang', 'gcc' ],
       \  'dockerfile' : [ 'hadolint' ],
       \  'haskell'    : [ 'ghc' ],
       \  'vim'        : [ 'vlint' ],
@@ -205,6 +206,9 @@ let g:ale_linters = {
 let g:UltiSnipsExpandTrigger="<c-l>"
 let g:UltiSnipsJumpForwardTrigger="<c-l>"
 let g:UltiSnipsJumpBackwardTrigger="<c-h>"
+
+inoremap <expr> <cr> ((pumvisible())?("\<C-y>"):("\<cr>"))
+
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
@@ -292,34 +296,26 @@ endfunction
 " let g:ctrlp_working_path_mode = 'ra'
 " let g:ctrlp_switch_buffer = 'et'
 
-"" vimwiki""
-let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown',
-                           \ '.mdown': 'markdown' }
-                    
-
-let g:vimwiki_list = [{'path': '~/vimwiki/', 
-					 \ 'syntax': 'markdown', 'ext': '.md'}]
-
 
 " Java completion
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
-autocmd FileType java JCEnable
-"" smart guess import 
-nmap <F4> <Plug>(JavaComplete-Imports-AddSmart) 
-imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
-"" import with ask
-nmap <F5> <Plug>(JavaComplete-Imports-Add)
-imap <F5> <Plug>(JavaComplete-Imports-Add)
-"" add missing imports 
-nmap <F6> <Plug>(JavaComplete-Imports-AddMissing) 
-imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-"" remove unused imports 
-nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused) 
-imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
-
-
-
-
+" autocmd FileType java setlocal omnifunc=javacomplete#Complete
+" autocmd FileType java JCEnable
+" "" smart guess import
+" nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
+" imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
+" "" import with ask
+" nmap <F5> <Plug>(JavaComplete-Imports-Add)
+" imap <F5> <Plug>(JavaComplete-Imports-Add)
+" "" add missing imports
+" nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
+" imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
+" "" remove unused imports
+" nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
+" imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
+"
+"
+"
+"
 
 ""mappings""
 
