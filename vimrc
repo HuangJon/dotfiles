@@ -37,6 +37,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   " Both options are optional. You don't have to install fzf in ~/.fzf
   " and you don't have to run install script if you use fzf only in Vim.
   "
+Plug 'junegunn/fzf.vim'
+
 Plug 'airblade/vim-gitgutter'
 Plug 'majutsushi/tagbar'
 Plug 'ryanoasis/vim-devicons'
@@ -59,6 +61,11 @@ Plug 'Townk/vim-autoclose'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'ajh17/VimCompletesMe'
+
+
+
 call plug#end()
 
 set colorcolumn=81
@@ -88,7 +95,8 @@ syntax enable
 let g:gruvbox_termcolors = 256
 let g:gruvbox_contrast_light = "soft"
 let g:gruvbox_contrast_dark ="soft"
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme palenight
 " colorscheme nord
 let g:nord_uniform_diff_background = 1
 let g:nord_comment_brightness = 20
@@ -130,28 +138,27 @@ set showmatch
 
 
 
-
-"" deoplete
-
-" Don't forget to start deoplete 
-let g:deoplete#enable_at_startup = 1 
-" Less spam 
-let g:deoplete#auto_complete_start_length = 2
-" Use smartcase
-let g:deoplete#enable_smart_case = 1
-""use TAB as the mapping
-inoremap <silent><expr> <TAB>
-    \ pumvisible() ?  "\<C-n>" :
-    \ <SID>check_back_space() ? "\<TAB>" :
-    \ deoplete#mappings#manual_complete()
-function! s:check_back_space() abort "" {{{
-    let col = col('.') - 1
-    return !col || getline('.')[col - 1]  =~ '\s'
-endfunction "" }}}
-
-" Setup completion sources
-let g:deoplete#sources = {}
-let g:deoplete#sources.java = ['jc', 'javacomplete2', 'file', 'buffer', 'ultisnips']
+" "" deoplete
+"
+" " Don't forget to start deoplete
+" let g:deoplete#enable_at_startup = 1
+" " Less spam
+" let g:deoplete#auto_complete_start_length = 2
+" " Use smartcase
+" let g:deoplete#enable_smart_case = 1
+" ""use TAB as the mapping
+" inoremap <silent><expr> <TAB>
+    " \ pumvisible() ?  "\<C-n>" :
+    " \ <SID>check_back_space() ? "\<TAB>" :
+    " \ deoplete#mappings#manual_complete()
+" function! s:check_back_space() abort "" {{{
+    " let col = col('.') - 1
+    " return !col || getline('.')[col - 1]  =~ '\s'
+" endfunction "" }}}
+"
+" " Setup completion sources
+" let g:deoplete#sources = {}
+" let g:deoplete#sources.java = ['jc', 'javacomplete2', 'file', 'buffer', 'ultisnips']
 
 
 " ctags -R . 
@@ -228,7 +235,7 @@ let g:airline_powerline_fonts = 1
 " seoul256
 " nord
 let g:lightline = {
-  \   'colorscheme': 'nord',
+  \   'colorscheme': 'palenight',
   \   'active': {
   \     'left':[ [ 'mode', 'paste' ],
   \              [ 'gitbranch', 'readonly', 'filename', 'modified', 'tagbar' ],
@@ -327,6 +334,13 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+" FZF mappings
+nmap ; :Buffers<CR>
+nmap <Leader>f :Files<CR>
+nmap <Leader>t :Tags<CR>
+
+
 
 "enable code folding with the spacebar
 nnoremap <space> za
