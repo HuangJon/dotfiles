@@ -92,9 +92,9 @@ set laststatus=2
 set termguicolors
 
 syntax enable
-let g:gruvbox_termcolors = 256
-let g:gruvbox_contrast_light = "soft"
-let g:gruvbox_contrast_dark ="soft"
+" let g:gruvbox_termcolors = 256
+" let g:gruvbox_contrast_light = "soft"
+" let g:gruvbox_contrast_dark ="soft"
 " colorscheme gruvbox
 colorscheme palenight
 " colorscheme nord
@@ -170,6 +170,9 @@ set foldlevel=99
 
 
 "" ALE
+" disable highlights
+" let g:ale_set_highlights = 0
+
 " Shorten error/warning flags
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
@@ -338,7 +341,9 @@ set splitright
 " FZF mappings
 nmap ; :Buffers<CR>
 nmap <Leader>f :Files<CR>
-nmap <Leader>t :Tags<CR>
+nmap <Leader>t :BTags<CR>
+nmap <Leader>T :Tags<CR>
+nmap <Leader>s :Snippets<CR>
 
 
 
